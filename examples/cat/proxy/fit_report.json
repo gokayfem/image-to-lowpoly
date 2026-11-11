@@ -1,0 +1,1514 @@
+{
+ "what": "Inferred high-resolution proxy cat scored through the locked camera with the same catlib.metrics functions used for the budget variants. NOT a deliverable mesh.",
+ "camera_status": "locked",
+ "camera": {
+  "method": "joint CMA-ES fit of camera (look_at + azimuth/elevation/distance) and the parametric proxy cat to reference/derived/mask.png + landmarks.json (scripts/fit_camera_proxy.py); gauge: withers 0.25 m; 85 mm, roll 0 fixed",
+  "azimuth_deg": -42.412,
+  "elevation_deg": 0.257,
+  "distance_to_look_at_m": 1.3592,
+  "camera_height_m": 0.2103,
+  "proxy_raster_iou": 0.9460869887511351,
+  "details": "proxy/fit_report.json"
+ },
+ "camera_location": [
+  0.98331,
+  -0.937249,
+  0.210279
+ ],
+ "camera_look_at": [
+  -0.020223,
+  -0.02052,
+  0.204175
+ ],
+ "metrics": {
+  "official": true,
+  "silhouette_source": "blender_render",
+  "camera_status": "locked",
+  "image_size": [
+   1536,
+   1536
+  ],
+  "iou": 0.9500874993301266,
+  "ref_uncovered_frac": 0.020280879606692327,
+  "render_outside_frac": 0.03085179376592825,
+  "ref_area_px": 524780,
+  "render_area_px": 530504,
+  "boundary_mean_px": 4.322357700788267,
+  "boundary_hd95_px": 13.91940220525054,
+  "boundary_max_px": 43.0,
+  "boundary_R_to_M_mean_px": 4.377340583803926,
+  "boundary_M_to_R_mean_px": 4.267374817772606,
+  "boundary_mean_norm": 0.002862457786216085,
+  "boundary_hd95_norm": 0.009218048107084351,
+  "boundary_max_norm": 0.02847651520947574,
+  "diag_px": 1510.016225078393,
+  "region_iou": {
+   "head": 0.9598260990863228,
+   "tail": 0.9424003552792273,
+   "legs": 0.9272124817723131,
+   "torso": 0.9792053739770109
+  },
+  "legs_gap_iou": 0.9451217623801216,
+  "raster_vs_blender_iou": 1.0,
+  "raster_dropped_behind_camera": 0,
+  "landmark_sharp_mean_px": 4.73846312513339,
+  "landmark_sharp_max_px": 10.69562175783507,
+  "landmark_sharp_mean_norm": 0.003138021331451184,
+  "landmark_sharp_n": 12,
+  "landmark_fuzzy_mean_px": 19.759384589976808,
+  "landmark_fuzzy_max_px": 29.80933444860348,
+  "landmark_fuzzy_n": 4,
+  "landmark_flags": {
+   "off_surface": [],
+   "occluded": [],
+   "missing_in_reference": [],
+   "missing_in_mesh": []
+  },
+  "landmarks": {
+   "ear_tip_R": {
+    "proj_uv": [
+     968.8160740370708,
+     358.2211529942902
+    ],
+    "depth_m": 1.2507349034583248,
+    "surface_dist_mm": 0.0,
+    "off_surface": false,
+    "first_hit_m": 1.260597410406345,
+    "occluded": false,
+    "occluded_tol_m": 0.025,
+    "class": "sharp",
+    "ref_uv": [
+     969.0,
+     362.0
+    ],
+    "error_px": 3.7833204268738965
+   },
+   "ear_tip_L": {
+    "proj_uv": [
+     1237.6435498514636,
+     356.05094894895683
+    ],
+    "depth_m": 1.2761082026782238,
+    "surface_dist_mm": 0.0,
+    "off_surface": false,
+    "first_hit_m": null,
+    "occluded": false,
+    "occluded_tol_m": 0.025,
+    "class": "sharp",
+    "ref_uv": [
+     1240.0,
+     358.0
+    ],
+    "error_px": 3.0580479561494274
+   },
+   "eye_R": {
+    "proj_uv": [
+     1071.8144456869873,
+     523.1534620303418
+    ],
+    "depth_m": 1.2352999271417318,
+    "surface_dist_mm": 1.904091153361354e-13,
+    "off_surface": false,
+    "first_hit_m": 1.2424291422709584,
+    "occluded": false,
+    "occluded_tol_m": 0.025,
+    "class": "sharp",
+    "ref_uv": [
+     1070.0,
+     524.0
+    ],
+    "error_px": 2.002208701684156
+   },
+   "eye_L": {
+    "proj_uv": [
+     1176.7989513736127,
+     523.4497346011938
+    ],
+    "depth_m": 1.2450918196675913,
+    "surface_dist_mm": 8.673617379884035e-16,
+    "off_surface": false,
+    "first_hit_m": 1.255786563549618,
+    "occluded": false,
+    "occluded_tol_m": 0.025,
+    "class": "sharp",
+    "ref_uv": [
+     1175.0,
+     523.0
+    ],
+    "error_px": 1.8543158458401496
+   },
+   "nose": {
+    "proj_uv": [
+     1142.7296589198231,
+     589.0179433748639
+    ],
+    "depth_m": 1.223745932449124,
+    "surface_dist_mm": 6.664589960562511e-14,
+    "off_surface": false,
+    "first_hit_m": 1.2317426155910571,
+    "occluded": false,
+    "occluded_tol_m": 0.025,
+    "class": "sharp",
+    "ref_uv": [
+     1143.0,
+     589.0
+    ],
+    "error_px": 0.2709359044731911
+   },
+   "paw_FR": {
+    "proj_uv": [
+     989.7430444542022,
+     1362.990941358737
+    ],
+    "depth_m": 1.2475818826027318,
+    "surface_dist_mm": 1.3877787808723225e-14,
+    "off_surface": false,
+    "first_hit_m": 1.2475717348680857,
+    "occluded": false,
+    "occluded_tol_m": 0.06,
+    "class": "sharp",
+    "ref_uv": [
+     987.0,
+     1357.0
+    ],
+    "error_px": 6.589056931121099
+   },
+   "paw_FL": {
+    "proj_uv": [
+     1166.5881547311742,
+     1341.0686217368225
+    ],
+    "depth_m": 1.2939893590137215,
+    "surface_dist_mm": 6.938893903907228e-15,
+    "off_surface": false,
+    "first_hit_m": 1.2995714980304354,
+    "occluded": false,
+    "occluded_tol_m": 0.06,
+    "class": "sharp",
+    "ref_uv": [
+     1170.0,
+     1347.0
+    ],
+    "error_px": 6.842655642314889
+   },
+   "paw_HR": {
+    "proj_uv": [
+     460.06757882590756,
+     1278.125952255909
+    ],
+    "depth_m": 1.4487087191965797,
+    "surface_dist_mm": 5.293955920339377e-20,
+    "off_surface": false,
+    "first_hit_m": 1.4459401376493135,
+    "occluded": false,
+    "occluded_tol_m": 0.06,
+    "class": "sharp",
+    "ref_uv": [
+     463.0,
+     1283.0
+    ],
+    "error_px": 5.688183836159379
+   },
+   "paw_HL": {
+    "proj_uv": [
+     704.2406955745151,
+     1262.7109633569216
+    ],
+    "depth_m": 1.4924126616505955,
+    "surface_dist_mm": 3.970466940254533e-20,
+    "off_surface": false,
+    "first_hit_m": 1.4843121075816859,
+    "occluded": false,
+    "occluded_tol_m": 0.06,
+    "class": "sharp",
+    "ref_uv": [
+     711.0,
+     1271.0
+    ],
+    "error_px": 10.69562175783507
+   },
+   "tail_base": {
+    "proj_uv": [
+     485.59244620523,
+     694.9811368961633
+    ],
+    "depth_m": 1.462465598272908,
+    "surface_dist_mm": 8.12176708575559e-14,
+    "off_surface": false,
+    "first_hit_m": 1.4671883672115644,
+    "occluded": false,
+    "occluded_tol_m": 0.025,
+    "class": "sharp",
+    "ref_uv": [
+     495.0,
+     697.0
+    ],
+    "error_px": 9.62173979244528
+   },
+   "tail_mid": {
+    "proj_uv": [
+     272.4063157708524,
+     595.5290104095951
+    ],
+    "depth_m": 1.5903477890921887,
+    "surface_dist_mm": 3.2494477869482713e-13,
+    "off_surface": false,
+    "first_hit_m": 1.6069089676315278,
+    "occluded": false,
+    "occluded_tol_m": 0.025,
+    "class": "sharp",
+    "ref_uv": [
+     270.0,
+     595.0
+    ],
+    "error_px": 2.463779130221102
+   },
+   "tail_tip": {
+    "proj_uv": [
+     149.40074016812252,
+     367.6573172725249
+    ],
+    "depth_m": 1.7034274660529065,
+    "surface_dist_mm": 8.039839784379823e-14,
+    "off_surface": false,
+    "first_hit_m": 1.7382303795633807,
+    "occluded": false,
+    "occluded_tol_m": 0.025,
+    "class": "sharp",
+    "ref_uv": [
+     151.0,
+     364.0
+    ],
+    "error_px": 3.991691576483044
+   },
+   "shoulder_R": {
+    "proj_uv": [
+     952.2654812753227,
+     845.0918673812953
+    ],
+    "depth_m": 1.2427209290362171,
+    "surface_dist_mm": 1.3877787807814457e-13,
+    "off_surface": false,
+    "first_hit_m": 1.2446043125985067,
+    "occluded": false,
+    "occluded_tol_m": 0.025,
+    "class": "fuzzy",
+    "ref_uv": [
+     975.0,
+     860.0
+    ],
+    "error_px": 27.186591544722734
+   },
+   "hip_R": {
+    "proj_uv": [
+     505.3495451589447,
+     826.9264112202121
+    ],
+    "depth_m": 1.4099019964450668,
+    "surface_dist_mm": 9.71445146547012e-14,
+    "off_surface": false,
+    "first_hit_m": 1.413780199993041,
+    "occluded": false,
+    "occluded_tol_m": 0.025,
+    "class": "fuzzy",
+    "ref_uv": [
+     535.0,
+     830.0
+    ],
+    "error_px": 29.80933444860348
+   },
+   "hock_HR": {
+    "proj_uv": [
+     410.72875314469707,
+     1066.543599891952
+    ],
+    "depth_m": 1.457235157990209,
+    "surface_dist_mm": 2.7755575615628914e-14,
+    "off_surface": false,
+    "first_hit_m": 1.4691944960400112,
+    "occluded": false,
+    "occluded_tol_m": 0.025,
+    "class": "fuzzy",
+    "ref_uv": [
+     412.0,
+     1072.0
+    ],
+    "error_px": 5.602532526119222
+   },
+   "chin": {
+    "proj_uv": [
+     1123.5894991807932,
+     655.9689214952147
+    ],
+    "depth_m": 1.233907133657897,
+    "surface_dist_mm": 9.819209125020508e-14,
+    "off_surface": false,
+    "first_hit_m": 1.2404098238060581,
+    "occluded": false,
+    "occluded_tol_m": 0.025,
+    "class": "fuzzy",
+    "ref_uv": [
+     1140.0,
+     655.0
+    ],
+    "error_px": 16.4390798404618
+   }
+  }
+ },
+ "proxy_mesh": {
+  "triangles": 60000,
+  "vertices": 30002,
+  "watertight_closed_manifold": true,
+  "components": 1,
+  "min_z": -0.0,
+  "bbox_min": [
+   -0.4896131455898285,
+   -0.07178022712469101,
+   -0.0
+  ],
+  "bbox_max": [
+   0.17030949890613556,
+   0.06948211044073105,
+   0.39653435349464417
+  ],
+  "bbox_center": [
+   -0.15965182334184647,
+   -0.0011490583419799805,
+   0.19826717674732208
+  ],
+  "fused_vs_unfused_parts_silhouette_iou_1536": 0.9871768715759289,
+  "region_triangle_counts": {
+   "head": 5410,
+   "ears": 1873,
+   "eyes": 70,
+   "nose": 87,
+   "neck": 3123,
+   "torso": 16563,
+   "leg_FR": 4975,
+   "leg_FL": 4183,
+   "leg_HR": 7033,
+   "leg_HL": 6984,
+   "tail": 9699
+  },
+  "spacing_m": 0.002
+ },
+ "fitted_parameters": {
+  "cam_az": -42.41174936867564,
+  "cam_el": 0.2573033714157854,
+  "cam_dist": 1.3592305913074498,
+  "cam_lx": -0.020223,
+  "cam_ly": -0.02052,
+  "cam_lz": 0.204175,
+  "torso_xr": -0.18418775379457888,
+  "torso_xf": 0.1249214077254031,
+  "torso_p": 2.3558836023099707,
+  "torso_cap_r": 0.04022497569725947,
+  "torso_cap_f": 0.04394666982427541,
+  "torso_top0": 0.26507260756080125,
+  "torso_bot0": 0.11414308779407875,
+  "torso_hw0": 0.041038762473350365,
+  "torso_top1": 0.25716744954185666,
+  "torso_bot1": 0.09363768172833623,
+  "torso_hw1": 0.0441154442081854,
+  "torso_top2": 0.266953081037581,
+  "torso_bot2": 0.09475525849473444,
+  "torso_hw2": 0.047214915928272684,
+  "torso_top3": 0.2701007454678776,
+  "torso_bot3": 0.09486204163809175,
+  "torso_hw3": 0.0482534592799327,
+  "torso_top4": 0.26466568198084006,
+  "torso_bot4": 0.09964425815192404,
+  "torso_hw4": 0.04720261387444095,
+  "torso_top5": 0.25821722261512053,
+  "torso_bot5": 0.10626488122090429,
+  "torso_hw5": 0.04530630428631729,
+  "torso_bot6": 0.11368004983856318,
+  "torso_hw6": 0.04138533690388984,
+  "torso_top7": 0.2420051440498286,
+  "torso_bot7": 0.12393719258278046,
+  "torso_hw7": 0.03632062396152414,
+  "neck_x0": 0.12269383497071247,
+  "neck_z0": 0.16652334007103495,
+  "neck_r0": 0.03736686097079263,
+  "neck_r1": 0.04244038490036563,
+  "neck_lift": -0.004786340089894112,
+  "neck_rmid": 1.1133222842046435,
+  "head_x": 0.12952930504688623,
+  "head_y": 1.1736417551988168e-05,
+  "head_z": 0.2819607712454251,
+  "head_yaw": -27.41005812927039,
+  "head_pitch": 4.869256410679333,
+  "head_roll": 0.7804301754777347,
+  "head_back": 0.053738098736420985,
+  "head_front": 0.03426407344676627,
+  "head_W": 0.05025504196689907,
+  "head_H": 0.03968200938001939,
+  "head_cheek": 0.8334064685844661,
+  "muzzle_W": 0.021614701209836926,
+  "muzzle_H": 0.016238101269790254,
+  "muzzle_drop": -0.01820490228795507,
+  "head_p": 2.0866373828924165,
+  "eye_b": 0.019080051098298224,
+  "eye_c": 0.00832887989416154,
+  "ear_a": -0.013288029875217117,
+  "ear_b": 0.03311628855799897,
+  "ear_c": 0.03214176214133314,
+  "earR_ta": -0.006597243846358286,
+  "earR_tb": -0.047095838298969746,
+  "earR_tc": 0.06243514329927918,
+  "earL_ta": -0.007263957764024144,
+  "earL_tb": 0.05175066746365123,
+  "earL_tc": 0.06457344440505533,
+  "ear_w": 0.020569041416214462,
+  "ear_t": 0.004295579110811776,
+  "tail_x0": -0.20779511530004058,
+  "tail_z0": 0.23264450592660077,
+  "tail_x1": -0.2953622656674475,
+  "tail_y1": -0.005045213557223867,
+  "tail_z1": 0.24677135558789987,
+  "tail_x2": -0.37808664993829044,
+  "tail_y2": -0.0100702573710763,
+  "tail_z2": 0.29213276656776255,
+  "tail_x3": -0.45158106114134716,
+  "tail_y3": 0.0004973923265450132,
+  "tail_z3": 0.34922891461769195,
+  "tail_x4": -0.47822048291024866,
+  "tail_y4": 0.004854216585357485,
+  "tail_z4": 0.38516662306126914,
+  "tail_r0": 0.023064737345493323,
+  "tail_r1": 0.018012760746615265,
+  "tail_r2": 0.011809965332475995,
+  "front_yt": 0.032198405765209916,
+  "hind_yt": 0.03209936833941693,
+  "FR_xt": 0.10841301034578374,
+  "FR_zt": 0.17827993363055628,
+  "FR_x1": 0.08159072755382707,
+  "FR_z1": 0.11002728789520953,
+  "FR_x2": 0.09646093651197432,
+  "FR_z2": 0.05005669898505867,
+  "FR_xp": 0.1143343725564644,
+  "FR_yp": -0.04012215044523817,
+  "FL_xt": 0.09154938871386493,
+  "FL_zt": 0.1826729527720395,
+  "FL_x1": 0.09974008084900886,
+  "FL_z1": 0.11061362221640653,
+  "FL_x2": 0.10640856912858129,
+  "FL_z2": 0.050612772511795835,
+  "FL_xp": 0.12454107256562229,
+  "FL_yp": 0.03985919721724265,
+  "HR_xt": -0.12611078768010553,
+  "HR_zt": 0.18104774769899823,
+  "HR_x1": -0.12593120274983027,
+  "HR_z1": 0.11221456350215314,
+  "HR_x2": -0.2005392387134675,
+  "HR_z2": 0.06531125398410491,
+  "HR_xp": -0.16857227415035064,
+  "HR_yp": -0.051606903674938906,
+  "HL_xt": -0.11980884690864145,
+  "HL_zt": 0.18233496538680938,
+  "HL_x1": -0.11230531047199896,
+  "HL_z1": 0.11372412135265995,
+  "HL_x2": -0.18082459823536984,
+  "HL_z2": 0.05887097061847307,
+  "HL_xp": -0.13557369165155903,
+  "HL_yp": 0.049315943444013875,
+  "front_rt_l": 0.020305316460817454,
+  "front_rt_s": 0.030257222545856593,
+  "front_r1_l": 0.01938640408549208,
+  "front_r1_s": 0.023595698557278992,
+  "front_r2": 0.013661652048753822,
+  "front_rpw": 0.017297267677222936,
+  "front_rph": 0.013700346091041874,
+  "hind_rt_l": 0.029950977500558043,
+  "hind_rt_s": 0.05868129718189632,
+  "hind_r1_l": 0.022318664831305225,
+  "hind_r1_s": 0.044120700157232816,
+  "hind_r2": 0.0173183759678165,
+  "hind_rpw": 0.02049300488826133,
+  "hind_rph": 0.011535277514496527,
+  "hind_rh": 0.013739699791205817
+ },
+ "parameter_spec_init_scale_lo_hi": {
+  "cam_az": [
+   -50.0,
+   5.0,
+   -85.0,
+   -15.0
+  ],
+  "cam_el": [
+   10.0,
+   3.0,
+   -2.0,
+   30.0
+  ],
+  "cam_dist": [
+   1.7,
+   0.1,
+   0.7,
+   3.5
+  ],
+  "cam_lx": [
+   0.02,
+   0.03,
+   -0.3,
+   0.3
+  ],
+  "cam_ly": [
+   0.0,
+   0.03,
+   -0.3,
+   0.3
+  ],
+  "cam_lz": [
+   0.14,
+   0.03,
+   -0.1,
+   0.4
+  ],
+  "torso_xr": [
+   -0.24,
+   0.02,
+   -0.34,
+   -0.15
+  ],
+  "torso_xf": [
+   0.21,
+   0.02,
+   0.12,
+   0.32
+  ],
+  "torso_p": [
+   2.2,
+   0.1,
+   2.0,
+   2.4
+  ],
+  "torso_cap_r": [
+   0.045,
+   0.008,
+   0.03,
+   0.09
+  ],
+  "torso_cap_f": [
+   0.04,
+   0.008,
+   0.035,
+   0.08
+  ],
+  "torso_top0": [
+   0.22,
+   0.01,
+   0.12,
+   0.32
+  ],
+  "torso_bot0": [
+   0.135,
+   0.01,
+   0.03,
+   0.22
+  ],
+  "torso_hw0": [
+   0.034,
+   0.006,
+   0.032,
+   0.11
+  ],
+  "torso_top1": [
+   0.245,
+   0.01,
+   0.12,
+   0.32
+  ],
+  "torso_bot1": [
+   0.105,
+   0.01,
+   0.03,
+   0.22
+  ],
+  "torso_hw1": [
+   0.042,
+   0.006,
+   0.015,
+   0.11
+  ],
+  "torso_top2": [
+   0.255,
+   0.01,
+   0.12,
+   0.32
+  ],
+  "torso_bot2": [
+   0.088,
+   0.01,
+   0.03,
+   0.22
+  ],
+  "torso_hw2": [
+   0.05,
+   0.006,
+   0.015,
+   0.11
+  ],
+  "torso_top3": [
+   0.255,
+   0.01,
+   0.12,
+   0.32
+  ],
+  "torso_bot3": [
+   0.082,
+   0.01,
+   0.03,
+   0.22
+  ],
+  "torso_hw3": [
+   0.05,
+   0.006,
+   0.015,
+   0.11
+  ],
+  "torso_top4": [
+   0.255,
+   0.01,
+   0.12,
+   0.32
+  ],
+  "torso_bot4": [
+   0.085,
+   0.01,
+   0.03,
+   0.22
+  ],
+  "torso_hw4": [
+   0.05,
+   0.006,
+   0.015,
+   0.11
+  ],
+  "torso_top5": [
+   0.255,
+   0.01,
+   0.12,
+   0.32
+  ],
+  "torso_bot5": [
+   0.092,
+   0.01,
+   0.03,
+   0.22
+  ],
+  "torso_hw5": [
+   0.051,
+   0.006,
+   0.015,
+   0.11
+  ],
+  "torso_bot6": [
+   0.105,
+   0.01,
+   0.03,
+   0.22
+  ],
+  "torso_hw6": [
+   0.046,
+   0.006,
+   0.015,
+   0.11
+  ],
+  "torso_top7": [
+   0.235,
+   0.01,
+   0.12,
+   0.32
+  ],
+  "torso_bot7": [
+   0.135,
+   0.01,
+   0.03,
+   0.22
+  ],
+  "torso_hw7": [
+   0.035,
+   0.006,
+   0.015,
+   0.11
+  ],
+  "neck_x0": [
+   0.15,
+   0.02,
+   0.0,
+   0.3
+  ],
+  "neck_z0": [
+   0.19,
+   0.02,
+   0.1,
+   0.3
+  ],
+  "neck_r0": [
+   0.045,
+   0.005,
+   0.03,
+   0.055
+  ],
+  "neck_r1": [
+   0.035,
+   0.005,
+   0.015,
+   0.06
+  ],
+  "neck_lift": [
+   0.01,
+   0.006,
+   -0.02,
+   0.05
+  ],
+  "neck_rmid": [
+   1.0,
+   0.08,
+   0.7,
+   1.5
+  ],
+  "head_x": [
+   0.25,
+   0.02,
+   0.1,
+   0.4
+  ],
+  "head_y": [
+   -0.01,
+   0.01,
+   -0.08,
+   0.08
+  ],
+  "head_z": [
+   0.3,
+   0.02,
+   0.2,
+   0.42
+  ],
+  "head_yaw": [
+   -35.0,
+   6.0,
+   -80.0,
+   10.0
+  ],
+  "head_pitch": [
+   5.0,
+   5.0,
+   -30.0,
+   40.0
+  ],
+  "head_roll": [
+   0.0,
+   4.0,
+   -25.0,
+   25.0
+  ],
+  "head_back": [
+   0.045,
+   0.005,
+   0.025,
+   0.07
+  ],
+  "head_front": [
+   0.05,
+   0.005,
+   0.03,
+   0.08
+  ],
+  "head_W": [
+   0.047,
+   0.003,
+   0.035,
+   0.06
+  ],
+  "head_H": [
+   0.042,
+   0.003,
+   0.03,
+   0.06
+  ],
+  "head_cheek": [
+   0.9,
+   0.05,
+   0.6,
+   1.1
+  ],
+  "muzzle_W": [
+   0.022,
+   0.003,
+   0.012,
+   0.035
+  ],
+  "muzzle_H": [
+   0.018,
+   0.003,
+   0.01,
+   0.03
+  ],
+  "muzzle_drop": [
+   -0.014,
+   0.004,
+   -0.035,
+   0.005
+  ],
+  "head_p": [
+   2.1,
+   0.08,
+   2.0,
+   2.3
+  ],
+  "eye_b": [
+   0.021,
+   0.002,
+   0.012,
+   0.03
+  ],
+  "eye_c": [
+   0.01,
+   0.003,
+   -0.005,
+   0.025
+  ],
+  "ear_a": [
+   -0.005,
+   0.005,
+   -0.03,
+   0.02
+  ],
+  "ear_b": [
+   0.026,
+   0.004,
+   0.012,
+   0.042
+  ],
+  "ear_c": [
+   0.03,
+   0.004,
+   0.015,
+   0.045
+  ],
+  "earR_ta": [
+   -0.002,
+   0.006,
+   -0.03,
+   0.03
+  ],
+  "earR_tb": [
+   -0.04,
+   0.006,
+   -0.07,
+   0.07
+  ],
+  "earR_tc": [
+   0.08,
+   0.006,
+   0.05,
+   0.11
+  ],
+  "earL_ta": [
+   -0.002,
+   0.006,
+   -0.03,
+   0.03
+  ],
+  "earL_tb": [
+   0.04,
+   0.006,
+   -0.07,
+   0.07
+  ],
+  "earL_tc": [
+   0.08,
+   0.006,
+   0.05,
+   0.11
+  ],
+  "ear_w": [
+   0.019,
+   0.003,
+   0.01,
+   0.03
+  ],
+  "ear_t": [
+   0.004,
+   0.0005,
+   0.003,
+   0.0045
+  ],
+  "tail_x0": [
+   -0.255,
+   0.01,
+   -0.36,
+   -0.15
+  ],
+  "tail_z0": [
+   0.195,
+   0.01,
+   0.12,
+   0.26
+  ],
+  "tail_x1": [
+   -0.32,
+   0.015,
+   -0.7,
+   -0.1
+  ],
+  "tail_y1": [
+   0.0,
+   0.01,
+   -0.12,
+   0.12
+  ],
+  "tail_z1": [
+   0.215,
+   0.015,
+   0.1,
+   0.6
+  ],
+  "tail_x2": [
+   -0.39,
+   0.015,
+   -0.7,
+   -0.1
+  ],
+  "tail_y2": [
+   0.0,
+   0.01,
+   -0.12,
+   0.12
+  ],
+  "tail_z2": [
+   0.26,
+   0.015,
+   0.1,
+   0.6
+  ],
+  "tail_x3": [
+   -0.43,
+   0.015,
+   -0.7,
+   -0.1
+  ],
+  "tail_y3": [
+   0.0,
+   0.01,
+   -0.12,
+   0.12
+  ],
+  "tail_z3": [
+   0.33,
+   0.015,
+   0.1,
+   0.6
+  ],
+  "tail_x4": [
+   -0.45,
+   0.015,
+   -0.7,
+   -0.1
+  ],
+  "tail_y4": [
+   0.0,
+   0.01,
+   -0.12,
+   0.12
+  ],
+  "tail_z4": [
+   0.4,
+   0.015,
+   0.1,
+   0.6
+  ],
+  "tail_r0": [
+   0.022,
+   0.003,
+   0.01,
+   0.04
+  ],
+  "tail_r1": [
+   0.014,
+   0.002,
+   0.007,
+   0.025
+  ],
+  "tail_r2": [
+   0.012,
+   0.002,
+   0.006,
+   0.025
+  ],
+  "front_yt": [
+   0.032,
+   0.005,
+   0.015,
+   0.06
+  ],
+  "hind_yt": [
+   0.04,
+   0.005,
+   0.03,
+   0.07
+  ],
+  "FR_xt": [
+   0.115,
+   0.012,
+   -0.6,
+   0.5
+  ],
+  "FR_zt": [
+   0.165,
+   0.012,
+   0.01,
+   0.26
+  ],
+  "FR_x1": [
+   0.095,
+   0.012,
+   -0.6,
+   0.5
+  ],
+  "FR_z1": [
+   0.115,
+   0.012,
+   0.01,
+   0.26
+  ],
+  "FR_x2": [
+   0.115,
+   0.012,
+   -0.6,
+   0.5
+  ],
+  "FR_z2": [
+   0.035,
+   0.012,
+   0.01,
+   0.26
+  ],
+  "FR_xp": [
+   0.125,
+   0.012,
+   -0.6,
+   0.5
+  ],
+  "FR_yp": [
+   -0.045,
+   0.006,
+   -0.12,
+   0.12
+  ],
+  "FL_xt": [
+   0.115,
+   0.012,
+   -0.6,
+   0.5
+  ],
+  "FL_zt": [
+   0.165,
+   0.012,
+   0.01,
+   0.26
+  ],
+  "FL_x1": [
+   0.095,
+   0.012,
+   -0.6,
+   0.5
+  ],
+  "FL_z1": [
+   0.115,
+   0.012,
+   0.01,
+   0.26
+  ],
+  "FL_x2": [
+   0.12,
+   0.012,
+   -0.6,
+   0.5
+  ],
+  "FL_z2": [
+   0.035,
+   0.012,
+   0.01,
+   0.26
+  ],
+  "FL_xp": [
+   0.13,
+   0.012,
+   -0.6,
+   0.5
+  ],
+  "FL_yp": [
+   0.045,
+   0.006,
+   -0.12,
+   0.12
+  ],
+  "HR_xt": [
+   -0.17,
+   0.012,
+   -0.6,
+   0.5
+  ],
+  "HR_zt": [
+   0.165,
+   0.012,
+   0.01,
+   0.26
+  ],
+  "HR_x1": [
+   -0.12,
+   0.012,
+   -0.6,
+   0.5
+  ],
+  "HR_z1": [
+   0.105,
+   0.012,
+   0.01,
+   0.26
+  ],
+  "HR_x2": [
+   -0.215,
+   0.012,
+   -0.6,
+   0.5
+  ],
+  "HR_z2": [
+   0.06,
+   0.012,
+   0.01,
+   0.26
+  ],
+  "HR_xp": [
+   -0.205,
+   0.012,
+   -0.6,
+   0.5
+  ],
+  "HR_yp": [
+   -0.045,
+   0.006,
+   -0.12,
+   0.12
+  ],
+  "HL_xt": [
+   -0.16,
+   0.012,
+   -0.6,
+   0.5
+  ],
+  "HL_zt": [
+   0.165,
+   0.012,
+   0.01,
+   0.26
+  ],
+  "HL_x1": [
+   -0.1,
+   0.012,
+   -0.6,
+   0.5
+  ],
+  "HL_z1": [
+   0.105,
+   0.012,
+   0.01,
+   0.26
+  ],
+  "HL_x2": [
+   -0.14,
+   0.012,
+   -0.6,
+   0.5
+  ],
+  "HL_z2": [
+   0.055,
+   0.012,
+   0.01,
+   0.26
+  ],
+  "HL_xp": [
+   -0.115,
+   0.012,
+   -0.6,
+   0.5
+  ],
+  "HL_yp": [
+   0.045,
+   0.006,
+   -0.12,
+   0.12
+  ],
+  "front_rt_l": [
+   0.028,
+   0.00336,
+   0.006,
+   0.09
+  ],
+  "front_rt_s": [
+   0.035,
+   0.004200000000000001,
+   0.006,
+   0.09
+  ],
+  "front_r1_l": [
+   0.019,
+   0.00228,
+   0.006,
+   0.09
+  ],
+  "front_r1_s": [
+   0.022,
+   0.0026399999999999996,
+   0.006,
+   0.09
+  ],
+  "front_r2": [
+   0.014,
+   0.002,
+   0.011,
+   0.09
+  ],
+  "front_rpw": [
+   0.017,
+   0.00204,
+   0.016,
+   0.09
+  ],
+  "front_rph": [
+   0.012,
+   0.002,
+   0.011,
+   0.09
+  ],
+  "hind_rt_l": [
+   0.036,
+   0.004319999999999999,
+   0.026,
+   0.09
+  ],
+  "hind_rt_s": [
+   0.055,
+   0.0066,
+   0.006,
+   0.09
+  ],
+  "hind_r1_l": [
+   0.024,
+   0.0028799999999999997,
+   0.006,
+   0.09
+  ],
+  "hind_r1_s": [
+   0.03,
+   0.0036,
+   0.006,
+   0.09
+  ],
+  "hind_r2": [
+   0.012,
+   0.002,
+   0.011,
+   0.09
+  ],
+  "hind_rpw": [
+   0.016,
+   0.002,
+   0.016,
+   0.09
+  ],
+  "hind_rph": [
+   0.012,
+   0.002,
+   0.011,
+   0.09
+  ],
+  "hind_rh": [
+   0.013,
+   0.002,
+   0.007,
+   0.03
+  ]
+ },
+ "priors": {
+  "torso_smooth": "second differences of torso top/bottom/half-width over stations 1-7 (8 mm scale)",
+  "torso_width_ratio": "torso width (2*half-width) 55-75 % of its height, stations 1-6",
+  "withers_top": "withers gauge: torso top at station 6 (above the shoulder joints) fixed at 0.25 m; chest station 7 not above it, station 5 at most 15 mm above it; back/rump free",
+  "body_length": "chest-to-rump length incl. end caps 0.40-0.50 m",
+  "head_width": "head (skull) width 9-10 cm",
+  "head_depth": "head back-of-skull to muzzle tip 8.5-11 cm",
+  "stance_front/hind": "paw y separation 8-11 cm; paw pair centred on y=0",
+  "paw_centroid_x": "x origin gauge: mean paw x near 0",
+  "limb_symmetry": "left/right segment lengths and top-joint heights equal (radii shared exactly)",
+  "leg_tops_in_torso": "shoulder/hip joints inside the torso section",
+  "joint_order": "elbow behind shoulder/wrist, stifle in front of hip/hock, hock 3.5-9 cm high",
+  "tail_sagittal": "tail control points near y=0",
+  "tail_smooth": "tail control polygon turns <= 45 deg per joint, segments >= 3.5 cm (no hooks)",
+  "rump_round": "rear torso station height >= 75 % and half-width >= 80 % of the next station",
+  "tail_on_rump": "tail base on the rear of the torso, upper half",
+  "tail_attached": "tail base centre inside the torso rear dome / section (<= 0.85 normalised radius)",
+  "ear_symmetry": "ear tips mirror-symmetric in the head frame (weak)",
+  "neck_anchor/neck_length": "neck anchored in the front torso, head within 6-15 cm of it",
+  "head_y": "head origin near the sagittal plane",
+  "neck_width": "neck base radius <= chest half-width at the anchor; neck top <= 0.85 head half-width",
+  "fixed_by_construction": "paw soles on z=0, body sagittal plane y=0, left/right leg radii shared, roll 0, 85 mm, principal point centred"
+ },
+ "final_prior_penalties": {
+  "torso_width_ratio": 0.044812557389263166,
+  "torso_smooth": 2.6817996860492763,
+  "rump_round": 0.0,
+  "torso_positive": 0.0,
+  "withers_top": 0.0,
+  "body_length": 0.4514755401332977,
+  "head_width": 0.016261601219935976,
+  "head_depth": 0.0,
+  "stance_front": 8.697742373228979e-05,
+  "stance_center_front": 0.000691444001132611,
+  "stance_hind": 0.0,
+  "stance_center_hind": 0.0524849877968007,
+  "paw_centroid_x": 0.6656626359086247,
+  "limb_symmetry": 0.30954423618925386,
+  "leg_tops_in_torso": 0.0,
+  "joint_order": 0.0,
+  "tail_smooth": 0.0,
+  "tail_sagittal": 0.16741675682419735,
+  "tail_on_rump": 0.0,
+  "tail_attached": 0.0,
+  "ear_symmetry": 0.20063668617229316,
+  "neck_anchor": 0.0,
+  "neck_length": 0.0,
+  "head_y": 3.4435874238653976e-07,
+  "neck_width": 0.038566433336780004
+ },
+ "objective_trace_summary": [
+  {
+   "stage": 1,
+   "title": "camera + global pose (landmarks, paws)",
+   "n_params": 34,
+   "evals": 4400,
+   "seconds": 12.1,
+   "start_objective": 233.96473140573806,
+   "best_objective": 7.250133675230421
+  },
+  {
+   "stage": 2,
+   "title": "torso + neck (+camera)",
+   "n_params": 40,
+   "evals": 5460,
+   "seconds": 15.4,
+   "start_objective": 8.86200473197616,
+   "best_objective": 5.704981676305501
+  },
+  {
+   "stage": 3,
+   "title": "head + ears + eyes",
+   "n_params": 31,
+   "evals": 5200,
+   "seconds": 19.8,
+   "start_objective": 5.7649803374895185,
+   "best_objective": 5.443126942007396
+  },
+  {
+   "stage": 4,
+   "title": "legs",
+   "n_params": 49,
+   "evals": 6720,
+   "seconds": 26.6,
+   "start_objective": 5.443126942007396,
+   "best_objective": 1.6322273387298276
+  },
+  {
+   "stage": 5,
+   "title": "tail",
+   "n_params": 17,
+   "evals": 3240,
+   "seconds": 13.5,
+   "start_objective": 1.6322273387298276,
+   "best_objective": 1.284526371601185
+  },
+  {
+   "stage": 6,
+   "title": "refine torso + neck + camera",
+   "n_params": 40,
+   "evals": 4200,
+   "seconds": 20.0,
+   "start_objective": 1.3013673084715776,
+   "best_objective": 1.1282345541641357
+  },
+  {
+   "stage": 7,
+   "title": "refine head + ears",
+   "n_params": 31,
+   "evals": 3200,
+   "seconds": 13.7,
+   "start_objective": 1.1282345541641357,
+   "best_objective": 1.0983929941776314
+  },
+  {
+   "stage": 8,
+   "title": "refine legs",
+   "n_params": 49,
+   "evals": 4200,
+   "seconds": 17.9,
+   "start_objective": 1.0983929941776314,
+   "best_objective": 1.0688755186749952
+  },
+  {
+   "stage": 9,
+   "title": "refine tail",
+   "n_params": 17,
+   "evals": 1800,
+   "seconds": 8.1,
+   "start_objective": 1.0688755186749952,
+   "best_objective": 1.0544827917281951
+  },
+  {
+   "stage": 10,
+   "title": "everything",
+   "n_params": 134,
+   "evals": 8400,
+   "seconds": 35.0,
+   "start_objective": 1.0544827917281951,
+   "best_objective": 0.8941666462031576
+  },
+  {
+   "stage": 11,
+   "title": "touch-up, camera frozen (locked)",
+   "n_params": 128,
+   "evals": 7200,
+   "seconds": 64.4,
+   "start_objective": 4.135163711504742,
+   "best_objective": 1.062989956032213
+  }
+ ],
+ "assumptions": [
+  "85 mm focal length on a 36 mm sensor (decision, not measured); roll 0; principal point centred",
+  "scale gauge: withers (torso top above the shoulder joints) = 0.25 m",
+  "body sagittal plane y = 0, nose +X, paw soles flat on z = 0",
+  "left/right legs share thickness parameters exactly; left/right segment lengths tied by prior"
+ ],
+ "inferred_not_observed": [
+  "everything on the cat's left side (left flank, far side of head, inner surfaces of the left ear)",
+  "torso width / cross-section (only height and outline are observed): width set by the 55-75 % of height prior and the superellipse exponent",
+  "belly underside and chest depth seen from below",
+  "head depth (back-of-skull to muzzle) and skull/cheek widths beyond the visible face outline",
+  "stance width (paw y) of all four legs: 8-11 cm prior; lateral positions of hips/shoulders",
+  "left-leg thicknesses (copied from the right legs); far hind leg (HL) upper part hidden by the belly",
+  "ear thickness (3-4.5 mm semi-axis, bounded), ear cup shape (pinnae are solid flattened cones)",
+  "tail lateral (y) deviation: kept near the sagittal plane by prior",
+  "top-of-back shape between the observed outline points (smoothness prior)",
+  "smooth-union fillets between parts (blend radii in build_report.json)"
+ ],
+ "sources": {
+  "skeleton": "proxy/skeleton.json",
+  "params": "proxy/fit_params.json",
+  "trace": "proxy/fit_trace.json",
+  "build": "proxy/build_report.json",
+  "overlay": "proxy/renders/ref_overlay.png",
+  "stage_overlays": "proxy/fit_stages/"
+ }
+}

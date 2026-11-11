@@ -1,0 +1,22 @@
+{
+  "annotation": "Manual. Coordinates read off gridded, upscaled crops (crops/annot_*.png, minor grid 10 px, labels every 50 px) by the preflight stage, then checked on crops/check_*.png. tail_mid was placed with the help of a skeleton of the tail part of mask.png (arc-length midpoint between tail_base and tail_tip), then confirmed visually.",
+  "left_right": "Cat's own left/right. Cat faces image-right with its RIGHT flank toward the camera; head turned to camera, so the cat's right ear/eye are image-left on the face. Near (right) legs are the image-left leg of each pair and sit lower in the frame (closer to camera): paw_FR is the image-left front paw, paw_HR the image-left hind paw. The far hind leg (HL) emerges from behind the belly.",
+  "landmarks": {
+    "ear_tip_R": {"uv": [969, 362], "class": "sharp", "sigma_px": 4, "note": "apex of the image-left ear (cat's right), rounded tip, fur edge"},
+    "ear_tip_L": {"uv": [1240, 358], "class": "sharp", "sigma_px": 4, "note": "apex of the image-right ear (cat's left), pointed tip"},
+    "eye_R":     {"uv": [1070, 524], "class": "sharp", "sigma_px": 2, "note": "pupil centre (vertical slit) of image-left eye"},
+    "eye_L":     {"uv": [1175, 523], "class": "sharp", "sigma_px": 2, "note": "pupil centre (vertical slit) of image-right eye"},
+    "nose":      {"uv": [1143, 589], "class": "sharp", "sigma_px": 3, "note": "centre of the pink nose pad (pad spans u 1120-1169, v 578-597)"},
+    "paw_FR":    {"uv": [987, 1357], "class": "sharp", "sigma_px": 8, "note": "image-left front paw; centre of ground footprint, placed ~10 px above the visible contact edge (v~1367), mid-width of toe row u 932-1040"},
+    "paw_FL":    {"uv": [1170, 1347], "class": "sharp", "sigma_px": 8, "note": "image-right front paw (far side, higher in frame); footprint centre ~10 px above contact edge (v~1357), toe row u 1115-1222"},
+    "paw_HR":    {"uv": [463, 1283], "class": "sharp", "sigma_px": 8, "note": "image-left hind paw (near); footprint centre ~8 px above contact edge (v~1291), u 412-512"},
+    "paw_HL":    {"uv": [711, 1271], "class": "sharp", "sigma_px": 8, "note": "far hind paw, leg emerges from behind belly; footprint centre ~8 px above contact edge (v~1279), u 667-755"},
+    "tail_base": {"uv": [495, 697], "class": "sharp", "sigma_px": 15, "note": "centre of tail cross-section where it meets the rump outline (upper tail edge v~640, lower junction v~755 at u~485-500); soft fur junction"},
+    "tail_mid":  {"uv": [270, 595], "class": "sharp", "sigma_px": 12, "note": "tail centreline at half arc length (total ~570 px tip->base along skeleton)"},
+    "tail_tip":  {"uv": [151, 364], "class": "sharp", "sigma_px": 6, "note": "end of the tail along its centreline, just inside the fluffy tip outline (fur extremity v~360)"},
+    "shoulder_R":{"uv": [975, 860], "class": "fuzzy", "sigma_px": 30, "note": "estimated point of shoulder above the near (right) foreleg; not a visible edge"},
+    "hip_R":     {"uv": [535, 830], "class": "fuzzy", "sigma_px": 30, "note": "estimated hip joint inside the near thigh/rump mass; not a visible edge"},
+    "hock_HR":   {"uv": [412, 1072], "class": "fuzzy", "sigma_px": 15, "note": "near hind leg hock, where the posterior leg outline bends (outline at u~398, v~1065)"},
+    "chin":      {"uv": [1140, 655], "class": "fuzzy", "sigma_px": 10, "note": "lowest point of the pale chin below the mouth (mouth at v~619)"}
+  }
+}

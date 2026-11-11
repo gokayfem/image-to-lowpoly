@@ -1,0 +1,16 @@
+---
+description: One photo to editable low-poly meshes under exact triangle budgets: locked camera, inferred proxy, welded build per budget, shared optimiser, four-way count, render-based metrics, decimation control
+globs: **/*.py
+alwaysApply: false
+---
+
+Copy this file into your project's `.cursor/rules/`. Install the skill too (Cursor reads `~/.cursor/skills`,
+`~/.claude/skills` and `.agents/skills`), so the rule can point at it.
+
+- Use the `image-to-lowpoly` skill: fixed targets (`preflight_reference.py`), camera and proxy
+  (`fit_camera_proxy.py`, `build_proxy.py --lock`), controls (`make_decimation_baseline.py`), then per budget a
+  build script, `refine_vertices.py`, `evaluate.py --views`, a blind review, `finalize_variant.py`.
+- Triangles only, one object, no modifiers; the four counts must agree and be at most N.
+- One closed surface: weld limbs, tail and ears into the body.
+- Better means IoU, boundary, landmarks and leg gaps agree and the clay renders look better.
+- Report where the designed mesh does not beat the decimation control.

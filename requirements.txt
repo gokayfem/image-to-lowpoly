@@ -1,0 +1,8 @@
+numpy
+scipy
+scikit-image
+Pillow
+opencv-python-headless
+cma
+
+# Also needed, not from pip: Blender 5.2+ (assembly, counting, rendering) and ffmpeg (turntables, timelapse).

@@ -1,0 +1,28 @@
+{
+  "frozen_at": "2026-11-11",
+  "note": "Evaluation inputs and code frozen by the orchestrator before any budget variant was scored. Every row in the final tables must carry exactly these hashes.",
+  "reference_sha256": "b2e4800a41bd0854c7b280a9f33a342a7f654c8596a4f65d7e4c3508e7c2ad16",
+  "mask_sha256": "b3786f1338105868d2f22f8561671d8bdc726ef924e9b38a8c66d53af89ec5ad",
+  "landmarks_sha256": "d49f4971ef2e520f90c1ad419ff032e3ff392f497e024976a7f7e16a78d2be0e",
+  "regions_sha256": "12e0cb659621c569018a6577e6e0b8f8d53caaa499ab99e448ed794ce033118d",
+  "camera_sha256": "333638cc81b4bc5f207dc0872979311e3a2b994c927df4571f2fbaf75cb02800",
+  "scene_sha256": "dc62cacdfcd66115be7613955854d8629ab15eeabd8a1c9ab729d75fea511288",
+  "proxy_sha256": "b6cf1e9a0477d90f04f4a25550ad51b83f6b2c7a600d4e014b3cc2c2252ce45c",
+  "tooling_hash": "00a32edb9cb31ed79646e9c5102d2ea85c730ae3dd670aed18213e774578e23b",
+  "tooling_files": [
+    "catlib/__init__.py",
+    "catlib/paths.py",
+    "catlib/camera.py",
+    "catlib/raster.py",
+    "catlib/geom.py",
+    "catlib/meshio.py",
+    "catlib/metrics.py",
+    "catlib/overlay.py",
+    "catlib/provenance.py",
+    "catlib/gpulock.py",
+    "scripts/assemble_variant.py",
+    "scripts/validate_variant.py",
+    "scripts/evaluate.py",
+    "scripts/render_variant.py"
+  ]
+}

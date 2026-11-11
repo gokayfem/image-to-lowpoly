@@ -1,0 +1,38 @@
+{
+  "source": "reference/cat.png",
+  "source_sha256": "b2e4800a41bd0854c7b280a9f33a342a7f654c8596a4f65d7e4c3508e7c2ad16",
+  "image_size": [
+    1536,
+    1536
+  ],
+  "method": "chroma threshold + GrabCut refinement + morphology (see params)",
+  "params": {
+    "colour_space": "CIELAB (OpenCV 8-bit Lab, a/b re-centred at 128)",
+    "feature": "chroma C = sqrt(a^2 + b^2); background and floor shadow are neutral grey (C ~ 0-1), all fur incl. pale cream has C >= ~8",
+    "median_blur_ksize": 5,
+    "chroma_fg_threshold": 5.0,
+    "grabcut_sure_fg_chroma": 12.0,
+    "grabcut_sure_fg_erode_px": 6,
+    "grabcut_sure_bg_chroma": 3.0,
+    "grabcut_sure_bg_erode_px": 4,
+    "grabcut_iters": 5,
+    "grabcut_scale": 0.5,
+    "combine": "final = grabcut_fg AND (C_blur >= chroma_fg_threshold_loose)",
+    "chroma_fg_threshold_loose": 3.5,
+    "largest_component": true,
+    "fill_holes_max_area_px": 4000,
+    "open_radius_px": 2,
+    "close_radius_px": 2,
+    "final_smooth": "Gaussian sigma 1.0 on the binary mask, re-threshold at 0.5"
+  },
+  "stats": {
+    "initial_chroma_fg_px": 531332,
+    "grabcut_fg_px": 525952,
+    "final_fg_px": 524780,
+    "unfilled_large_holes": 0
+  },
+  "connected_components": 1,
+  "enclosed_background_px": 0,
+  "binarise": ">= 128 (file stores 0/255)",
+  "generator": "scripts/preflight_reference.py"
+}

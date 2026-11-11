@@ -1,0 +1,18 @@
+__pycache__/
+*.pyc
+*.blend1
+.DS_Store
+.venv/
+.env
+.env.*
+!.env.example
+cases/
+.cache/
+**/proxy/sdf.npz
+**/outputs/
+**/checkpoints/
+*.mp4
+*.blend
+# The four final meshes of the worked example are shipped on purpose.
+*.glb
+!examples/cat/variants/*/final/*.glb

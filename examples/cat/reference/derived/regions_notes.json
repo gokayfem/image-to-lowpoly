@@ -1,0 +1,11 @@
+{
+  "source_sha256": "b2e4800a41bd0854c7b280a9f33a342a7f654c8596a4f65d7e4c3508e7c2ad16",
+  "format": "{name: [u0, v0, u1, v1]} pixel edges, u1/v1 exclusive",
+  "notes": {
+    "format": "[u0, v0, u1, v1] pixel edges, u1/v1 exclusive, drawn once from the reference, never moved",
+    "head": "both ear tips, skull, cheeks, muzzle, chin, top of neck (to v=700)",
+    "tail": "whole tail from the fluffy tip to the rump junction (u<500)",
+    "legs": "everything below the belly line v=1000 incl. all four legs, paws and the background between and around them down past the paw contacts",
+    "torso": "back line to belly line between rump and chest; overlaps head window in u 928-1232, v 598-700 (neck/chest top) and touches legs at v=1000"
+  }
+}

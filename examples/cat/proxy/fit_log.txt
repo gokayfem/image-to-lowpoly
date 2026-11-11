@@ -1,0 +1,21 @@
+[stage 1] camera + global pose (landmarks, paws): total 8.8546  IoU(full raster) 0.7165  sharp lm 10.9px  chamfer 28.3px  gap 0.723  t=12.1s
+   lm err: {'ear_tip_R': 6.8, 'ear_tip_L': 2.9, 'eye_R': 2.9, 'eye_L': 5.4, 'nose': 5.6, 'paw_FR': 10.3, 'paw_FL': 7.3, 'paw_HR': 18.1, 'paw_HL': 10.0, 'tail_base': 42.9, 'tail_mid': 12.4, 'tail_tip': 6.0, 'shoulder_R': 48.5, 'hip_R': 119.4, 'hock_HR': 13.5, 'chin': 16.5}
+[stage 2] torso + neck (+camera): total 5.7413  IoU(full raster) 0.8167  sharp lm 12.0px  chamfer 16.4px  gap 0.767  t=15.4s
+   lm err: {'ear_tip_R': 11.1, 'ear_tip_L': 6.6, 'eye_R': 5.4, 'eye_L': 1.4, 'nose': 8.1, 'paw_FR': 15.6, 'paw_FL': 7.3, 'paw_HR': 19.2, 'paw_HL': 10.1, 'tail_base': 40.6, 'tail_mid': 12.1, 'tail_tip': 6.4, 'shoulder_R': 49.3, 'hip_R': 121.7, 'hock_HR': 12.3, 'chin': 20.6}
+[stage 3] head + ears + eyes: total 5.4380  IoU(full raster) 0.8330  sharp lm 11.0px  chamfer 15.0px  gap 0.777  t=19.8s
+   lm err: {'ear_tip_R': 4.7, 'ear_tip_L': 2.3, 'eye_R': 0.3, 'eye_L': 0.4, 'nose': 1.0, 'paw_FR': 18.4, 'paw_FL': 10.3, 'paw_HR': 21.4, 'paw_HL': 10.8, 'tail_base': 42.5, 'tail_mid': 7.1, 'tail_tip': 12.0, 'shoulder_R': 48.7, 'hip_R': 126.2, 'hock_HR': 14.2, 'chin': 16.7}
+[stage 4] legs: total 1.6433  IoU(full raster) 0.9019  sharp lm 9.7px  chamfer 8.8px  gap 0.931  t=26.6s
+   lm err: {'ear_tip_R': 4.7, 'ear_tip_L': 2.3, 'eye_R': 0.3, 'eye_L': 0.4, 'nose': 1.0, 'paw_FR': 8.7, 'paw_FL': 6.1, 'paw_HR': 13.9, 'paw_HL': 17.6, 'tail_base': 42.5, 'tail_mid': 7.1, 'tail_tip': 12.0, 'shoulder_R': 27.0, 'hip_R': 15.0, 'hock_HR': 10.7, 'chin': 16.7}
+[stage 5] tail: total 1.3014  IoU(full raster) 0.9209  sharp lm 5.6px  chamfer 7.2px  gap 0.931  t=13.5s
+   lm err: {'ear_tip_R': 4.7, 'ear_tip_L': 2.3, 'eye_R': 0.3, 'eye_L': 0.4, 'nose': 1.0, 'paw_FR': 8.7, 'paw_FL': 6.1, 'paw_HR': 13.9, 'paw_HL': 17.6, 'tail_base': 6.1, 'tail_mid': 4.2, 'tail_tip': 2.3, 'shoulder_R': 27.0, 'hip_R': 15.0, 'hock_HR': 10.7, 'chin': 16.7}
+[stage 6] refine torso + neck + camera: total 1.1282  IoU(full raster) 0.9345  sharp lm 6.2px  chamfer 5.8px  gap 0.932  t=20.0s
+   lm err: {'ear_tip_R': 6.4, 'ear_tip_L': 3.4, 'eye_R': 2.0, 'eye_L': 2.0, 'nose': 2.0, 'paw_FR': 8.2, 'paw_FL': 6.3, 'paw_HR': 13.2, 'paw_HL': 16.7, 'tail_base': 5.5, 'tail_mid': 5.4, 'tail_tip': 3.2, 'shoulder_R': 28.1, 'hip_R': 15.3, 'hock_HR': 9.9, 'chin': 17.8}
+[stage 7] refine head + ears: total 1.0984  IoU(full raster) 0.9353  sharp lm 5.7px  chamfer 5.7px  gap 0.933  t=13.7s
+   lm err: {'ear_tip_R': 3.1, 'ear_tip_L': 2.9, 'eye_R': 0.8, 'eye_L': 2.9, 'nose': 0.5, 'paw_FR': 8.7, 'paw_FL': 5.6, 'paw_HR': 13.3, 'paw_HL': 16.8, 'tail_base': 7.1, 'tail_mid': 3.4, 'tail_tip': 3.0, 'shoulder_R': 28.3, 'hip_R': 16.7, 'hock_HR': 9.7, 'chin': 15.5}
+[stage 8] refine legs: total 1.0689  IoU(full raster) 0.9369  sharp lm 5.6px  chamfer 5.6px  gap 0.938  t=17.9s
+   lm err: {'ear_tip_R': 3.1, 'ear_tip_L': 2.9, 'eye_R': 0.8, 'eye_L': 2.9, 'nose': 0.5, 'paw_FR': 8.7, 'paw_FL': 6.5, 'paw_HR': 12.8, 'paw_HL': 15.5, 'tail_base': 7.1, 'tail_mid': 3.4, 'tail_tip': 3.0, 'shoulder_R': 24.3, 'hip_R': 14.2, 'hock_HR': 10.9, 'chin': 15.5}
+[stage 9] refine tail: total 1.0545  IoU(full raster) 0.9381  sharp lm 5.3px  chamfer 5.5px  gap 0.938  t=8.1s
+   lm err: {'ear_tip_R': 3.1, 'ear_tip_L': 2.9, 'eye_R': 0.8, 'eye_L': 2.9, 'nose': 0.5, 'paw_FR': 8.7, 'paw_FL': 6.5, 'paw_HR': 12.8, 'paw_HL': 15.5, 'tail_base': 2.7, 'tail_mid': 4.9, 'tail_tip': 2.2, 'shoulder_R': 24.3, 'hip_R': 14.2, 'hock_HR': 10.9, 'chin': 15.5}
+[stage 10] everything: total 0.8942  IoU(full raster) 0.9488  sharp lm 4.1px  chamfer 4.6px  gap 0.945  t=35.0s
+   lm err: {'ear_tip_R': 4.9, 'ear_tip_L': 2.0, 'eye_R': 1.0, 'eye_L': 4.2, 'nose': 0.5, 'paw_FR': 5.8, 'paw_FL': 6.6, 'paw_HR': 5.3, 'paw_HL': 8.4, 'tail_base': 3.4, 'tail_mid': 4.8, 'tail_tip': 2.8, 'shoulder_R': 33.3, 'hip_R': 15.3, 'hock_HR': 14.9, 'chin': 14.3}
+done in 185s

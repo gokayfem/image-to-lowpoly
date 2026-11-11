@@ -1,0 +1,22 @@
+{
+  "name": "image-to-lowpoly",
+  "description": "Match one photo with exactly N triangles in Blender with coding agents",
+  "owner": {
+    "name": "gokayfem",
+    "url": "https://github.com/gokayfem"
+  },
+  "plugins": [
+    {
+      "name": "image-to-lowpoly",
+      "source": "./",
+      "description": "Low-poly meshes of one photo under hard triangle budgets: one locked camera, an inferred proxy, a build per budget, a shared optimiser, four-way counts and render-based metrics against a decimation control",
+      "category": "development",
+      "tags": [
+        "blender",
+        "low-poly",
+        "mesh",
+        "triangle-budget"
+      ]
+    }
+  ]
+}

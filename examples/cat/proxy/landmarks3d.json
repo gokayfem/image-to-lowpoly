@@ -1,0 +1,232 @@
+{
+ "note": "16 landmarks on the fused proxy surface. tail_base: tail centreline point where it leaves the torso part (tail/rump junction), then as below. ear_tip_*: apex vertex of the fused ear (farthest along the ear axis). paw_*: closest surface point to the fitted sole centre. Others: first camera-ray hit through the fitted model point (the visible surface of that feature, keeps its reference-view projection) when the hit is within 40 mm (70 mm for tail_*: the tail root is seen through the rump flank) and not behind the point; otherwise the ray/surface hit nearest the point if within 30 mm (feature hidden behind nearer fur in the reference view, e.g. the tail root behind the rump flank; flagged occluded by the metric); otherwise the closest surface point.",
+ "landmarks": {
+  "ear_tip_R": [
+   0.10612167418003082,
+   -0.04213382303714752,
+   0.3459819555282593
+  ],
+  "ear_tip_L": [
+   0.1521216779947281,
+   0.04586617648601532,
+   0.34949854016304016
+  ],
+  "eye_R": [
+   0.1407948574139305,
+   -0.027448066397441573,
+   0.28812930053401953
+  ],
+  "eye_L": [
+   0.15842602957713303,
+   0.006374414258782601,
+   0.2886446850526033
+  ],
+  "nose": [
+   0.16488769863215436,
+   -0.01835779469912624,
+   0.26517672770858614
+  ],
+  "chin": [
+   0.1537754669090735,
+   -0.015604891690507383,
+   0.2428539447059311
+  ],
+  "paw_FR": [
+   0.1143343725549595,
+   -0.04012215045130078,
+   1.668021319096322e-07
+  ],
+  "shoulder_R": [
+   0.10847033027053354,
+   -0.05256168737317546,
+   0.17828203008773702
+  ],
+  "paw_FL": [
+   0.1245410725656223,
+   0.03985919721724265,
+   0.0
+  ],
+  "paw_HR": [
+   -0.16857227414803239,
+   -0.05160690367103243,
+   2.5201992695572294e-07
+  ],
+  "hip_R": [
+   -0.126425307373908,
+   -0.061802227888896666,
+   0.18103946066794088
+  ],
+  "hock_HR": [
+   -0.1890045819910663,
+   -0.060773974558221866,
+   0.08377794141862421
+  ],
+  "paw_HL": [
+   -0.13557369165171998,
+   0.0493159434437903,
+   3.580329158152024e-08
+  ],
+  "tail_base": [
+   -0.1733480398911914,
+   -0.03488515027139816,
+   0.23315620129252693
+  ],
+  "tail_mid": [
+   -0.33768566725441274,
+   -0.024869578853528806,
+   0.2787674604741603
+  ],
+  "tail_tip": [
+   -0.4709349165830906,
+   -0.002328164488102691,
+   0.3906663785912732
+  ]
+ },
+ "details": {
+  "ear_tip_R": {
+   "model_point": [
+    0.10637119940719929,
+    -0.0429366247692438,
+    0.34581503417007775
+   ],
+   "method": "ear_apex_vertex",
+   "moved_mm": 0.8570975439630102
+  },
+  "ear_tip_L": {
+   "model_point": [
+    0.15229255405306727,
+    0.0465880938607114,
+    0.34930620594021994
+   ],
+   "method": "ear_apex_vertex",
+   "moved_mm": 0.7663913990054155
+  },
+  "eye_R": {
+   "model_point": [
+    0.140796602948499,
+    -0.02744995133564598,
+    0.2881291392426861
+   ],
+   "method": "camera_ray_first_hit",
+   "moved_mm": 0.0025740819447883207
+  },
+  "eye_L": {
+   "model_point": [
+    0.15840135713015188,
+    0.0064026382266294014,
+    0.288647028986149
+   ],
+   "method": "camera_ray_first_hit",
+   "moved_mm": 0.037560831001477044
+  },
+  "nose": {
+   "model_point": [
+    0.16449272170200602,
+    -0.01791433069917969,
+    0.26520322177641176
+   ],
+   "method": "camera_ray_first_hit",
+   "moved_mm": 0.5944485093159445
+  },
+  "chin": {
+   "model_point": [
+    0.1476802908988596,
+    -0.008832921585789225,
+    0.2430932958282597
+   ],
+   "method": "camera_ray_first_hit",
+   "moved_mm": 9.11416692048394
+  },
+  "paw_FR": {
+   "model_point": [
+    0.1143343725564644,
+    -0.04012215044523817,
+    0.0
+   ],
+   "method": "closest_point",
+   "moved_mm": 0.00016680213202659703
+  },
+  "shoulder_R": {
+   "model_point": [
+    0.10841301034578374,
+    -0.052503722226027366,
+    0.17827993363055628
+   ],
+   "method": "camera_ray_first_hit",
+   "moved_mm": 0.08154708572312054
+  },
+  "paw_FL": {
+   "model_point": [
+    0.12454107256562229,
+    0.03985919721724265,
+    0.0
+   ],
+   "method": "closest_point",
+   "moved_mm": 1.3877787807814457e-14
+  },
+  "paw_HR": {
+   "model_point": [
+    -0.16857227415035064,
+    -0.051606903674938906,
+    0.0
+   ],
+   "method": "closest_point",
+   "moved_mm": 0.00025201992699666197
+  },
+  "hip_R": {
+   "model_point": [
+    -0.12611078768010553,
+    -0.06205034583997497,
+    0.18104774769899823
+   ],
+   "method": "camera_ray_first_hit",
+   "moved_mm": 0.40069168985723075
+  },
+  "hock_HR": {
+   "model_point": [
+    -0.21067827854356985,
+    -0.04456974573679999,
+    0.08143919582987053
+   ],
+   "method": "camera_ray_first_hit",
+   "moved_mm": 27.162398363839653
+  },
+  "paw_HL": {
+   "model_point": [
+    -0.13557369165155903,
+    0.049315943444013875,
+    0.0
+   ],
+   "method": "closest_point",
+   "moved_mm": 3.580329158258011e-05
+  },
+  "tail_base": {
+   "model_point": [
+    -0.21735948202925806,
+    -0.0005497347984296401,
+    0.2340266907425131
+   ],
+   "method": "camera_ray_first_hit",
+   "tail_t_of_junction": 0.03,
+   "moved_mm": 55.82728317459387
+  },
+  "tail_mid": {
+   "model_point": [
+    -0.35926603782150257,
+    -0.009964544344936588,
+    0.2798863183124103
+   ],
+   "method": "camera_ray_first_hit",
+   "moved_mm": 26.251176933186358
+  },
+  "tail_tip": {
+   "model_point": [
+    -0.48343415011065516,
+    0.005707479109198398,
+    0.392216807920423
+   ],
+   "method": "camera_ray_first_hit",
+   "moved_mm": 14.940088283009832
+  }
+ }
+}

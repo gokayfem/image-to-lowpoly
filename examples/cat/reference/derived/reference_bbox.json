@@ -1,0 +1,9 @@
+{
+  "u0": 126,
+  "v0": 354,
+  "u1": 1244,
+  "v1": 1369,
+  "diag_px": 1510.016225078393,
+  "area_px": 524780,
+  "note": "pixel-edge bbox of mask.png (u0,v0 inclusive top-left edge, u1,v1 exclusive = right/bottom edge of last cat pixel); diag_px = hypot(u1-u0, v1-v0)"
+}

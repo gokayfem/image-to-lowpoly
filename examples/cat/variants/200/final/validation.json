@@ -1,0 +1,312 @@
+{
+ "mesh": "variants/200/final/mesh.json",
+ "blend": {
+  "blend_inventory": {
+   "collections": [
+    "CAT_200"
+   ],
+   "materials": [
+    "ear_inner",
+    "fur_cream",
+    "fur_orange"
+   ],
+   "meshes": [
+    "cat_200"
+   ],
+   "objects": [
+    "cat_200"
+   ],
+   "scenes": [
+    "Scene"
+   ],
+   "screens": [
+    "Animation",
+    "Compositing",
+    "Geometry Nodes",
+    "Layout",
+    "Modeling",
+    "Rendering",
+    "Scripting",
+    "Sculpting",
+    "Shading",
+    "Texture Paint",
+    "UV Editing"
+   ],
+   "window_managers": [
+    "WinMan"
+   ],
+   "workspaces": [
+    "Animation",
+    "Compositing",
+    "Geometry Nodes",
+    "Layout",
+    "Modeling",
+    "Rendering",
+    "Scripting",
+    "Sculpting",
+    "Shading",
+    "Texture Paint",
+    "UV Editing"
+   ]
+  },
+  "blend_objects": [
+   {
+    "name": "cat_200",
+    "type": "MESH",
+    "data": "cat_200",
+    "users_collection": [
+     "CAT_200"
+    ],
+    "modifiers": [],
+    "particle_systems": 0,
+    "instance_type": "NONE",
+    "hide_viewport": false,
+    "hide_render": false
+   }
+  ],
+  "blend_collections": [
+   "CAT_200"
+  ],
+  "reveal_notes": [],
+  "B_per_object": {
+   "cat_200": {
+    "type": "MESH",
+    "instances": 1,
+    "loop_triangles_each": 200
+   }
+  },
+  "B_orphan_mesh_triangles": {},
+  "cat_object": {
+   "found": true,
+   "matrix_world_identity": true,
+   "polygons": 200,
+   "polygon_sizes": [
+    3
+   ],
+   "smooth_polygons": 0,
+   "shape_keys": 0,
+   "modifiers": [],
+   "materials": [
+    "fur_orange",
+    "fur_cream",
+    "ear_inner"
+   ],
+   "has_region_id": true,
+   "custom_props": [
+    "budget",
+    "catmesh_format",
+    "landmarks",
+    "regions",
+    "source_mesh"
+   ],
+   "mesh_users": 1
+  },
+  "geometry_matches_mesh_json": true
+ },
+ "glb": "variants/200/final/cat_200.glb",
+ "name": "cat_200",
+ "budget": 200,
+ "counts": {
+  "A_mesh_json": 200,
+  "B_blend_evaluated": 200,
+  "C_glb_reimported": 200,
+  "D_glb_parsed": 200,
+  "all_agree": true,
+  "final_triangles": 200,
+  "budget": 200,
+  "budget_unused": 0
+ },
+ "glb_reimport": {
+  "C_per_object": {
+   "cat_200": {
+    "type": "MESH",
+    "instances": 1,
+    "loop_triangles_each": 200
+   }
+  },
+  "C_objects": [
+   {
+    "name": "cat_200",
+    "type": "MESH"
+   }
+  ],
+  "C_error": null,
+  "C_bbox_min": [
+   -0.4876430928707123,
+   -0.07184869796037674,
+   0.0
+  ],
+  "C_bbox_max": [
+   0.1752030998468399,
+   0.06804739683866501,
+   0.400349497795105
+  ]
+ },
+ "glb_parse": {
+  "D": 200,
+  "meshes": [
+   {
+    "mesh": 0,
+    "name": "cat_200",
+    "triangles": 200,
+    "node_refs": 1
+   }
+  ],
+  "nodes": 1,
+  "errors": [],
+  "cameras": 0,
+  "lights": 0,
+  "extensionsUsed": [],
+  "bbox_min_yup": [
+   -0.4876430928707123,
+   0.0,
+   -0.06804739683866501
+  ],
+  "bbox_max_yup": [
+   0.1752030998468399,
+   0.400349497795105,
+   0.07184869796037674
+  ],
+  "bbox_min_blender": [
+   -0.4876430928707123,
+   -0.07184869796037674,
+   0.0
+  ],
+  "bbox_max_blender": [
+   0.1752030998468399,
+   0.06804739683866501,
+   0.400349497795105
+  ]
+ },
+ "disclosed": {
+  "components": 1,
+  "component_triangles": [
+   200
+  ],
+  "components_after_weld": 1,
+  "boundary_edges": 0,
+  "non_manifold_edges": 0,
+  "closed_manifold": true,
+  "inconsistent_winding_edges": 0,
+  "signed_volume_m3": 0.005688373982332907,
+  "component_signed_volume_m3": [
+   0.005688373982332905
+  ],
+  "components_with_negative_volume": 0,
+  "unwelded_coincident_vertex_groups": 0,
+  "unused_vertices": 0,
+  "self_intersecting_pairs": 0,
+  "self_intersecting_pair_list": [],
+  "hidden_triangles": 0,
+  "hidden_triangle_ids": [],
+  "hidden_census": {
+   "directions": 162,
+   "raster_size": 512,
+   "hidden_by_raster_only": 0
+  },
+  "flat_redundant_vertices": 0,
+  "flat_angle_tol_deg": 0.5,
+  "bbox_min": [
+   -0.4876431,
+   -0.0718487,
+   0.0
+  ],
+  "bbox_max": [
+   0.1752031,
+   0.0680474,
+   0.4003495
+  ],
+  "bbox_extent_m": [
+   0.6628461999999999,
+   0.1398961,
+   0.4003495
+  ],
+  "min_extent_ratio": 0.21105363506647545,
+  "min_z": 0.0,
+  "min_triangle_area_m2": 2.792405179751824e-05,
+  "min_edge_m": 0.008017832685956957,
+  "landmark_surface_dist_mm": {
+   "ear_tip_R": 0.0,
+   "ear_tip_L": 0.0,
+   "eye_R": 1.734723475976807e-14,
+   "eye_L": 2.7809732887839817e-14,
+   "nose": 0.0,
+   "chin": 0.0,
+   "paw_FR": 0.0,
+   "shoulder_R": 0.0,
+   "paw_FL": 0.0,
+   "paw_HR": 6.938893903907228e-15,
+   "hip_R": 6.938893903907228e-15,
+   "hock_HR": 1.3877787807814457e-14,
+   "paw_HL": 0.0,
+   "tail_base": 3.469446951953614e-15,
+   "tail_mid": 0.0,
+   "tail_tip": 0.0
+  },
+  "landmarks_off_surface_gt_2mm": [],
+  "glb_bbox_matches_mesh": true
+ },
+ "degenerate_triangles": [],
+ "duplicate_triangles": {
+  "same_indices": [],
+  "coincident_positions": []
+ },
+ "region_allocation": {
+  "head": {
+   "triangles": 22,
+   "pct": 11.0
+  },
+  "ears": {
+   "triangles": 8,
+   "pct": 4.0
+  },
+  "eyes": {
+   "triangles": 0,
+   "pct": 0.0
+  },
+  "nose": {
+   "triangles": 0,
+   "pct": 0.0
+  },
+  "neck": {
+   "triangles": 27,
+   "pct": 13.5
+  },
+  "torso": {
+   "triangles": 43,
+   "pct": 21.5
+  },
+  "leg_FR": {
+   "triangles": 18,
+   "pct": 9.0
+  },
+  "leg_FL": {
+   "triangles": 18,
+   "pct": 9.0
+  },
+  "leg_HR": {
+   "triangles": 18,
+   "pct": 9.0
+  },
+  "leg_HL": {
+   "triangles": 18,
+   "pct": 9.0
+  },
+  "tail": {
+   "triangles": 28,
+   "pct": 14.0
+  }
+ },
+ "material_allocation": {
+  "fur_orange": 173,
+  "fur_cream": 25,
+  "fur_stripe": 0,
+  "ear_inner": 2,
+  "eye": 0,
+  "pupil": 0,
+  "nose": 0
+ },
+ "hard_failures": [],
+ "valid": true,
+ "elapsed_s": 2.02
+}

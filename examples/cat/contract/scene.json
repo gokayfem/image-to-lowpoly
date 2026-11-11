@@ -1,0 +1,204 @@
+{
+  "status": "locked",
+  "note": "Shared presentation scene, locked by the orchestrator. Identical for every budget and baseline. The light rig is defined relative to the reference view and rotates with view azimuth for novel views and turntables.",
+  "orbit_target": [
+    -0.158099,
+    -0.003055,
+    0.198204
+  ],
+  "orbit_radius_m": 2.1,
+  "orbit_radius_note": "explicit orbit radius in metres for every novel view and the turntable (the locked reference camera is only ~1.36 m away and would crop the cat); the reference view itself is unchanged",
+  "orbit_focal_length_mm": 85.0,
+  "views": {
+    "front": {
+      "az_deg": 0,
+      "el_deg": 5
+    },
+    "side_R": {
+      "az_deg": -90,
+      "el_deg": 5
+    },
+    "back": {
+      "az_deg": 180,
+      "el_deg": 5
+    },
+    "side_L": {
+      "az_deg": 90,
+      "el_deg": 5
+    },
+    "threeq_front_L": {
+      "az_deg": 45,
+      "el_deg": 15
+    },
+    "threeq_back_L": {
+      "az_deg": 135,
+      "el_deg": 15
+    },
+    "threeq_back_R": {
+      "az_deg": -135,
+      "el_deg": 15
+    },
+    "top": {
+      "straight_down": true,
+      "image_up": [
+        1,
+        0,
+        0
+      ]
+    }
+  },
+  "view_resolution": [
+    1024,
+    1024
+  ],
+  "turntable": {
+    "frames": 72,
+    "step_deg": 5,
+    "el_deg": 10,
+    "start_az": "reference camera azimuth",
+    "resolution": [
+      768,
+      768
+    ],
+    "fps": 24
+  },
+  "materials_linear_rgb": {
+    "clay": [
+      0.5,
+      0.5,
+      0.5
+    ],
+    "fur_orange": [
+      0.38,
+      0.205,
+      0.09
+    ],
+    "fur_cream": [
+      0.72,
+      0.52,
+      0.33
+    ],
+    "fur_stripe": [
+      0.18,
+      0.08,
+      0.03
+    ],
+    "ear_inner": [
+      0.45,
+      0.2,
+      0.15
+    ],
+    "eye": [
+      0.55,
+      0.33,
+      0.06
+    ],
+    "pupil": [
+      0.02,
+      0.02,
+      0.02
+    ],
+    "nose": [
+      0.55,
+      0.2,
+      0.19
+    ]
+  },
+  "wire_color_linear_rgb": [
+    0.03,
+    0.03,
+    0.03
+  ],
+  "background_linear_rgb": [
+    0.68,
+    0.68,
+    0.68
+  ],
+  "render": {
+    "engine": "CYCLES",
+    "device": "GPU (Metal) when available, else CPU (recorded in render_meta.json)",
+    "samples": 32,
+    "adaptive_threshold": 0,
+    "denoiser": "NONE",
+    "max_bounces": 3,
+    "pixel_filter": "BLACKMAN_HARRIS 1.5 px (clay/beauty); BOX 0.01 px, 1 spp (silhouette, id)",
+    "view_transform": "Standard",
+    "look": "None",
+    "exposure": 0.0,
+    "dither": 0.0,
+    "shaded_material": {
+      "roughness": 0.6,
+      "specular_ior_level": 0.25
+    },
+    "flat_shading": true,
+    "world": {
+      "lighting_rgb": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "lighting_strength": 0.25,
+      "camera_ray_rgb": "background_linear_rgb",
+      "note": "uniform world light; camera rays see background_linear_rgb"
+    },
+    "lights": [
+      {
+        "name": "key",
+        "type": "AREA",
+        "shape": "DISK",
+        "size": 2.0,
+        "power_w": 75,
+        "color": [
+          1.0,
+          0.98,
+          0.95
+        ],
+        "location": [
+          -0.513,
+          -1.4095,
+          2.7681
+        ],
+        "target": [
+          0.0,
+          0.0,
+          0.17
+        ]
+      },
+      {
+        "name": "rim",
+        "type": "AREA",
+        "shape": "DISK",
+        "size": 2.0,
+        "power_w": 35,
+        "color": [
+          1,
+          1,
+          1
+        ],
+        "location": [
+          -1.299,
+          0.75,
+          2.7681
+        ],
+        "target": [
+          0.0,
+          0.0,
+          0.17
+        ]
+      }
+    ],
+    "light_rig_follows_view": "novel views and turntable rotate every light about the world Z axis through orbit_target by (view_az - reference_camera_az); the top view uses view_az = 180",
+    "ground": {
+      "type": "shadow_catcher_plane",
+      "z": 0.0,
+      "size_m": 4.0,
+      "albedo_rgb": "background_linear_rgb"
+    },
+    "wire": {
+      "supersample": 3,
+      "line_px": 1.5,
+      "method": "per-triangle id image (1 spp point sample at pixel centres, 3x supersampled); id changes between 4-neighbours; disc-dilated to line_px output pixels; box-downsampled to alpha; composited over the clay clipped to [0,1] (linear)"
+    },
+    "samples_note": "32 spp, no adaptive sampling, no denoiser: OIDN costs ~8 s per image on this machine regardless of quality settings; slight grain remains on dark faces"
+  }
+}

@@ -1,0 +1,121 @@
+{
+ "feature_table": {
+  "0": "skull block with crown ridge, cheeks = lower neck-loop corners, single nose point, throat/chin break on the neck loop, 3-sided ear pyramids (front face + 2 back faces); no eyes",
+  "1": "L0 + brow (forehead plane), separate blunt chin, cheek pair, eye-area vertex (eye landmark on a head face), 6-vertex neck loop",
+  "2": "L1 + nose pad facet (2 'nose' tris), whisker pads, temple, skull side, occiput, one flat 'eye' triangle per eye, 4-sided ear pyramids with a separate ear_inner front face",
+  "3": "L2 + mouth step, nose bridge, forehead, back of skull, chin sides, jaw, cheekbones, brows, mouth corners, inset 4-sided eye sockets with a centre vertex, cupped two-segment ears with an ear_inner cup and real thickness, 8-vertex neck loop",
+  "4": "L3 + lower lip, philtrum, rounder skull (crown back, skull high, back low), whisker-pad rims, cheek high/low, brow outer, temple low, 6-sided eyes with a vertical-slit pupil (2 'pupil' tris), ears with a fur rim around an inset cup, 10-vertex neck loop"
+ },
+ "summary": {
+  "0": {
+   "triangles": 22,
+   "neck_loop": 4,
+   "ok": true,
+   "mirror_err": 0.0,
+   "sym_tris": true,
+   "min_area_mm2": 140.09,
+   "min_edge_mm": 16.37,
+   "self_int": 0,
+   "regions": {
+    "ears": 6,
+    "head": 16
+   }
+  },
+  "1": {
+   "triangles": 32,
+   "neck_loop": 6,
+   "ok": true,
+   "mirror_err": 0.0,
+   "sym_tris": true,
+   "min_area_mm2": 140.09,
+   "min_edge_mm": 16.37,
+   "self_int": 0,
+   "regions": {
+    "ears": 6,
+    "head": 26
+   }
+  },
+  "2": {
+   "triangles": 50,
+   "neck_loop": 6,
+   "ok": true,
+   "mirror_err": 0.0,
+   "sym_tris": true,
+   "min_area_mm2": 29.65,
+   "min_edge_mm": 6.83,
+   "self_int": 0,
+   "regions": {
+    "ears": 6,
+    "eyes": 2,
+    "head": 40,
+    "nose": 2
+   }
+  },
+  "3": {
+   "triangles": 120,
+   "neck_loop": 8,
+   "ok": true,
+   "mirror_err": 0.0,
+   "sym_tris": true,
+   "min_area_mm2": 19.27,
+   "min_edge_mm": 5.67,
+   "self_int": 0,
+   "regions": {
+    "ears": 28,
+    "eyes": 8,
+    "head": 82,
+    "nose": 2
+   }
+  },
+  "4": {
+   "triangles": 224,
+   "neck_loop": 10,
+   "ok": true,
+   "mirror_err": 0.0,
+   "sym_tris": true,
+   "min_area_mm2": 3.24,
+   "min_edge_mm": 1.28,
+   "self_int": 0,
+   "regions": {
+    "ears": 48,
+    "eyes": 22,
+    "head": 152,
+    "nose": 2
+   }
+  }
+ },
+ "shape": {
+  "skull_d": 39.0,
+  "skull_w": 37.0,
+  "skull_h": 32.0,
+  "skull_cx": -5.0,
+  "skull_cz": 4.0,
+  "cheek_w": 22.0,
+  "cheek_y": 25.0,
+  "cheek_z": -13.0,
+  "cheek_x": 3.0,
+  "nose_x": 45.0,
+  "nose_z": -20.0,
+  "pad_y": 11.0,
+  "chin_x": 25.0,
+  "chin_z": -45.0,
+  "eye_x": 31.0,
+  "eye_y": 19.0,
+  "eye_z": 0.0,
+  "ear_in_y": 13.0,
+  "ear_in_z": 36.0,
+  "ear_out_y": 39.0,
+  "ear_out_z": 15.0,
+  "ear_base_x": 4.0,
+  "ear_d": 12.0,
+  "ear_yaw": 18.0,
+  "ear_tip_x": 3.0,
+  "ear_tip_y": 46.0,
+  "ear_tip_z": 60.0,
+  "throat_x": 10.0,
+  "throat_z": -55.0,
+  "nape_x": -40.0,
+  "nape_z": -14.0,
+  "neck_w": 36.0
+ }
+}

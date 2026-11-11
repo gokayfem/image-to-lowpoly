@@ -1,0 +1,5 @@
+budget,checkpoint,head,ears,eyes,nose,neck,torso,leg_FR,leg_FL,leg_HR,leg_HL,tail,total
+100,v3_welded,19,6,0,0,10,16,7,7,13,7,15,100
+200,v5u_untangled,22,8,0,0,27,43,18,18,18,18,28,200
+500,v3_nose,69,24,2,1,32,98,52,52,52,52,66,500
+1000,v7_body,151,48,6,6,75,223,85,85,100,98,123,1000

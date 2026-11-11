@@ -1,0 +1,22 @@
+{
+ "image": "cat.png",
+ "sha256": "b2e4800a41bd0854c7b280a9f33a342a7f654c8596a4f65d7e4c3508e7c2ad16",
+ "generated_with": "MiniMax H3 Image, endpoint minimax/h3-image/text-to-image on fal",
+ "generated_on": "2026-11-11",
+ "size": [
+  1536,
+  1536
+ ],
+ "generated_once": true,
+ "arguments": {
+  "prompt": "Photorealistic studio reference photograph of one adult short-haired orange tabby cat, full body, standing naturally on all four paws in a relaxed neutral pose. Three-quarter side view at the cat's body height, the head turned slightly toward the camera so both ears and the muzzle shape are readable. The entire body, all paws, ear tips and long tail are inside the frame with generous margin. The tail curves gently upward and away from the body so its silhouette is clearly separated. Natural feline proportions, short fur, clear chest, shoulder, belly and haunch shapes, subtle tabby stripes, amber eyes, a pink nose. Seamless light neutral gray background and floor, soft broad studio illumination with a small contact shadow, restrained perspective like an 85mm camera lens, everything sharply in focus. One cat only, no collar, no props, no furniture, no text, no labels, no collage, no watermark. A real cat photograph, not a low-poly render or illustration. This single image will be the fixed reference for reconstructing the cat as editable 3D meshes under strict triangle budgets.",
+  "image_size": {
+   "width": 1536,
+   "height": 1536
+  },
+  "num_images": 1,
+  "output_format": "png",
+  "enable_prompt_expansion": false
+ },
+ "note": "Generated once and never changed. Every derived file (mask, landmarks, regions) and every metric hashes this exact file. The fal request id and output URL of the original run are not included here."
+}

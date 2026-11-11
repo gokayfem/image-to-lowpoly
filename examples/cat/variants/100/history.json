@@ -1,0 +1,373 @@
+[
+ {
+  "tag": "v0_initial",
+  "timestamp": "2026-11-11T14:14:00+03:00",
+  "mesh": "variants/100/checkpoints/v0_initial/mesh.json",
+  "official": true,
+  "valid": true,
+  "triangles": {
+   "target_budget": 100,
+   "mesh_json": 100,
+   "blend_evaluated": 100,
+   "glb_reimported": 100,
+   "glb_parsed": 100,
+   "all_agree": true
+  },
+  "headline": {
+   "iou": 0.7692506469222293,
+   "ref_uncovered_frac": 0.1831472235984603,
+   "render_outside_frac": 0.07042082482185531,
+   "boundary_mean_px": 18.861267049361754,
+   "boundary_hd95_px": 45.5411901469428,
+   "boundary_max_px": 90.2551937563706,
+   "boundary_mean_norm": 0.012490771116305432,
+   "legs_gap_iou": 0.6405513900197273,
+   "region_iou": {
+    "head": 0.868826166867632,
+    "tail": 0.748179335457442,
+    "legs": 0.48120951334159634,
+    "torso": 0.938819972896904
+   },
+   "landmark_sharp_mean_px": 12.211756599660987,
+   "landmark_sharp_max_px": 34.12779389287832,
+   "landmark_sharp_mean_norm": 0.008087169128945623,
+   "landmark_fuzzy_mean_px": 19.496487383995092,
+   "raster_vs_blender_iou": 0.9999891574233701
+  },
+  "hard_failures": [],
+  "render_error": null,
+  "evaluation_errors": [],
+  "elapsed_s": 27.01,
+  "camera_status": "locked",
+  "provenance": {
+   "reference_sha256": "b2e4800a41bd0854c7b280a9f33a342a7f654c8596a4f65d7e4c3508e7c2ad16",
+   "mask_sha256": "b3786f1338105868d2f22f8561671d8bdc726ef924e9b38a8c66d53af89ec5ad",
+   "landmarks_sha256": "d49f4971ef2e520f90c1ad419ff032e3ff392f497e024976a7f7e16a78d2be0e",
+   "regions_sha256": "12e0cb659621c569018a6577e6e0b8f8d53caaa499ab99e448ed794ce033118d",
+   "camera_sha256": "333638cc81b4bc5f207dc0872979311e3a2b994c927df4571f2fbaf75cb02800",
+   "scene_sha256": "dc62cacdfcd66115be7613955854d8629ab15eeabd8a1c9ab729d75fea511288",
+   "mesh_sha256": "55fffff2f6d69952624164a18957c2bfce4e7f9cf32137fd62fdbccfae66250c",
+   "proxy_sha256": "b6cf1e9a0477d90f04f4a25550ad51b83f6b2c7a600d4e014b3cc2c2252ce45c",
+   "tooling_hash": "00a32edb9cb31ed79646e9c5102d2ea85c730ae3dd670aed18213e774578e23b",
+   "derived_dir": "reference/derived"
+  }
+ },
+ {
+  "tag": "v1_refine",
+  "timestamp": "2026-11-11T14:14:56+03:00",
+  "mesh": "variants/100/checkpoints/v1_refine/mesh.json",
+  "official": true,
+  "valid": true,
+  "triangles": {
+   "target_budget": 100,
+   "mesh_json": 100,
+   "blend_evaluated": 100,
+   "glb_reimported": 100,
+   "glb_parsed": 100,
+   "all_agree": true
+  },
+  "headline": {
+   "iou": 0.9225606570029043,
+   "ref_uncovered_frac": 0.047850527840237814,
+   "render_outside_frac": 0.032586640851887706,
+   "boundary_mean_px": 6.872918263728989,
+   "boundary_hd95_px": 23.0,
+   "boundary_max_px": 56.568542494923804,
+   "boundary_mean_norm": 0.004551552592338654,
+   "legs_gap_iou": 0.8679356319110636,
+   "region_iou": {
+    "head": 0.9092058850830781,
+    "tail": 0.8952749876131706,
+    "legs": 0.8262162584272588,
+    "torso": 0.9877421768896034
+   },
+   "landmark_sharp_mean_px": 6.932955003614107,
+   "landmark_sharp_max_px": 21.80123551544079,
+   "landmark_sharp_mean_norm": 0.00459131159551228,
+   "landmark_fuzzy_mean_px": 59.30364498686103,
+   "raster_vs_blender_iou": 0.9999922555813058
+  },
+  "hard_failures": [],
+  "render_error": null,
+  "evaluation_errors": [],
+  "elapsed_s": 27.97,
+  "camera_status": "locked",
+  "provenance": {
+   "reference_sha256": "b2e4800a41bd0854c7b280a9f33a342a7f654c8596a4f65d7e4c3508e7c2ad16",
+   "mask_sha256": "b3786f1338105868d2f22f8561671d8bdc726ef924e9b38a8c66d53af89ec5ad",
+   "landmarks_sha256": "d49f4971ef2e520f90c1ad419ff032e3ff392f497e024976a7f7e16a78d2be0e",
+   "regions_sha256": "12e0cb659621c569018a6577e6e0b8f8d53caaa499ab99e448ed794ce033118d",
+   "camera_sha256": "333638cc81b4bc5f207dc0872979311e3a2b994c927df4571f2fbaf75cb02800",
+   "scene_sha256": "dc62cacdfcd66115be7613955854d8629ab15eeabd8a1c9ab729d75fea511288",
+   "mesh_sha256": "419c3c3d3dde1f17f547579252e426cc55cf980b441e45469b6f03e2308e2bbf",
+   "proxy_sha256": "b6cf1e9a0477d90f04f4a25550ad51b83f6b2c7a600d4e014b3cc2c2252ce45c",
+   "tooling_hash": "00a32edb9cb31ed79646e9c5102d2ea85c730ae3dd670aed18213e774578e23b",
+   "derived_dir": "reference/derived"
+  }
+ },
+ {
+  "tag": "v2_hrflip",
+  "timestamp": "2026-11-11T14:18:45+03:00",
+  "mesh": "variants/100/checkpoints/v2_hrflip/mesh.json",
+  "official": true,
+  "valid": true,
+  "triangles": {
+   "target_budget": 100,
+   "mesh_json": 100,
+   "blend_evaluated": 100,
+   "glb_reimported": 100,
+   "glb_parsed": 100,
+   "all_agree": true
+  },
+  "headline": {
+   "iou": 0.9232957645914145,
+   "ref_uncovered_frac": 0.04885475818438203,
+   "render_outside_frac": 0.030737653188237783,
+   "boundary_mean_px": 6.798380384215706,
+   "boundary_hd95_px": 23.0,
+   "boundary_max_px": 51.24451190127583,
+   "boundary_mean_norm": 0.004502190288626048,
+   "legs_gap_iou": 0.8698106777174638,
+   "region_iou": {
+    "head": 0.9093160624171531,
+    "tail": 0.8928062597525951,
+    "legs": 0.8278087722278114,
+    "torso": 0.9895337311901742
+   },
+   "landmark_sharp_mean_px": 7.160534114435342,
+   "landmark_sharp_max_px": 21.80123551544079,
+   "landmark_sharp_mean_norm": 0.004742024619015998,
+   "landmark_fuzzy_mean_px": 65.76765848468317,
+   "raster_vs_blender_iou": 0.9999844653256359
+  },
+  "hard_failures": [],
+  "render_error": null,
+  "evaluation_errors": [],
+  "elapsed_s": 42.24,
+  "camera_status": "locked",
+  "provenance": {
+   "reference_sha256": "b2e4800a41bd0854c7b280a9f33a342a7f654c8596a4f65d7e4c3508e7c2ad16",
+   "mask_sha256": "b3786f1338105868d2f22f8561671d8bdc726ef924e9b38a8c66d53af89ec5ad",
+   "landmarks_sha256": "d49f4971ef2e520f90c1ad419ff032e3ff392f497e024976a7f7e16a78d2be0e",
+   "regions_sha256": "12e0cb659621c569018a6577e6e0b8f8d53caaa499ab99e448ed794ce033118d",
+   "camera_sha256": "333638cc81b4bc5f207dc0872979311e3a2b994c927df4571f2fbaf75cb02800",
+   "scene_sha256": "dc62cacdfcd66115be7613955854d8629ab15eeabd8a1c9ab729d75fea511288",
+   "mesh_sha256": "665ea2071c2a63bcd45ddc36a6c3678ad15252600e03f7d93bf368deb68e17a5",
+   "proxy_sha256": "b6cf1e9a0477d90f04f4a25550ad51b83f6b2c7a600d4e014b3cc2c2252ce45c",
+   "tooling_hash": "00a32edb9cb31ed79646e9c5102d2ea85c730ae3dd670aed18213e774578e23b",
+   "derived_dir": "reference/derived"
+  }
+ },
+ {
+  "tag": "v3_welded",
+  "timestamp": "2026-11-11T14:32:51+03:00",
+  "mesh": "variants/100/checkpoints/v3_welded/mesh.json",
+  "official": true,
+  "valid": true,
+  "triangles": {
+   "target_budget": 100,
+   "mesh_json": 100,
+   "blend_evaluated": 100,
+   "glb_reimported": 100,
+   "glb_parsed": 100,
+   "all_agree": true
+  },
+  "headline": {
+   "iou": 0.9431783595647864,
+   "ref_uncovered_frac": 0.03745950684096193,
+   "render_outside_frac": 0.020882156252725846,
+   "boundary_mean_px": 4.920037068767412,
+   "boundary_hd95_px": 18.0,
+   "boundary_max_px": 49.0,
+   "boundary_mean_norm": 0.0032582676841846426,
+   "legs_gap_iou": 0.913263872159319,
+   "region_iou": {
+    "head": 0.9388948603261561,
+    "tail": 0.8617106137824064,
+    "legs": 0.8826022865449803,
+    "torso": 0.9924882759482511
+   },
+   "landmark_sharp_mean_px": 8.56677772433707,
+   "landmark_sharp_max_px": 42.376083245097284,
+   "landmark_sharp_mean_norm": 0.0056733017712391285,
+   "landmark_fuzzy_mean_px": 112.89839582481673,
+   "raster_vs_blender_iou": 0.9999903081616909
+  },
+  "hard_failures": [],
+  "render_error": null,
+  "evaluation_errors": [],
+  "elapsed_s": 28.89,
+  "camera_status": "locked",
+  "provenance": {
+   "reference_sha256": "b2e4800a41bd0854c7b280a9f33a342a7f654c8596a4f65d7e4c3508e7c2ad16",
+   "mask_sha256": "b3786f1338105868d2f22f8561671d8bdc726ef924e9b38a8c66d53af89ec5ad",
+   "landmarks_sha256": "d49f4971ef2e520f90c1ad419ff032e3ff392f497e024976a7f7e16a78d2be0e",
+   "regions_sha256": "12e0cb659621c569018a6577e6e0b8f8d53caaa499ab99e448ed794ce033118d",
+   "camera_sha256": "333638cc81b4bc5f207dc0872979311e3a2b994c927df4571f2fbaf75cb02800",
+   "scene_sha256": "dc62cacdfcd66115be7613955854d8629ab15eeabd8a1c9ab729d75fea511288",
+   "mesh_sha256": "a6ba45d64bf3a1142ae1f5d87b0ae868a68676b5e0108a236dd4516f1aa1c6a3",
+   "proxy_sha256": "b6cf1e9a0477d90f04f4a25550ad51b83f6b2c7a600d4e014b3cc2c2252ce45c",
+   "tooling_hash": "00a32edb9cb31ed79646e9c5102d2ea85c730ae3dd670aed18213e774578e23b",
+   "derived_dir": "reference/derived"
+  }
+ },
+ {
+  "tag": "v3_welded",
+  "timestamp": "2026-11-11T14:37:45+03:00",
+  "mesh": "variants/100/checkpoints/v3_welded/mesh.json",
+  "official": true,
+  "valid": true,
+  "triangles": {
+   "target_budget": 100,
+   "mesh_json": 100,
+   "blend_evaluated": 100,
+   "glb_reimported": 100,
+   "glb_parsed": 100,
+   "all_agree": true
+  },
+  "headline": {
+   "iou": 0.9431783595647864,
+   "ref_uncovered_frac": 0.03745950684096193,
+   "render_outside_frac": 0.020882156252725846,
+   "boundary_mean_px": 4.920037068767412,
+   "boundary_hd95_px": 18.0,
+   "boundary_max_px": 49.0,
+   "boundary_mean_norm": 0.0032582676841846426,
+   "legs_gap_iou": 0.913263872159319,
+   "region_iou": {
+    "head": 0.9388948603261561,
+    "tail": 0.8617106137824064,
+    "legs": 0.8826022865449803,
+    "torso": 0.9924882759482511
+   },
+   "landmark_sharp_mean_px": 8.56677772433707,
+   "landmark_sharp_max_px": 42.376083245097284,
+   "landmark_sharp_mean_norm": 0.0056733017712391285,
+   "landmark_fuzzy_mean_px": 112.89839582481673,
+   "raster_vs_blender_iou": 0.9999903081616909
+  },
+  "hard_failures": [],
+  "render_error": null,
+  "evaluation_errors": [],
+  "elapsed_s": 167.44,
+  "camera_status": "locked",
+  "provenance": {
+   "reference_sha256": "b2e4800a41bd0854c7b280a9f33a342a7f654c8596a4f65d7e4c3508e7c2ad16",
+   "mask_sha256": "b3786f1338105868d2f22f8561671d8bdc726ef924e9b38a8c66d53af89ec5ad",
+   "landmarks_sha256": "d49f4971ef2e520f90c1ad419ff032e3ff392f497e024976a7f7e16a78d2be0e",
+   "regions_sha256": "12e0cb659621c569018a6577e6e0b8f8d53caaa499ab99e448ed794ce033118d",
+   "camera_sha256": "333638cc81b4bc5f207dc0872979311e3a2b994c927df4571f2fbaf75cb02800",
+   "scene_sha256": "dc62cacdfcd66115be7613955854d8629ab15eeabd8a1c9ab729d75fea511288",
+   "mesh_sha256": "126393ab239a6a4bec954f12f0f8de720ac9c536b2b07bb6ade76e2dd09cb881",
+   "proxy_sha256": "b6cf1e9a0477d90f04f4a25550ad51b83f6b2c7a600d4e014b3cc2c2252ce45c",
+   "tooling_hash": "00a32edb9cb31ed79646e9c5102d2ea85c730ae3dd670aed18213e774578e23b",
+   "derived_dir": "reference/derived"
+  }
+ },
+ {
+  "tag": "v4_kit",
+  "timestamp": "2026-11-11T15:04:54+03:00",
+  "mesh": "variants/100/checkpoints/v4_kit/mesh.json",
+  "official": true,
+  "valid": true,
+  "triangles": {
+   "target_budget": 100,
+   "mesh_json": 100,
+   "blend_evaluated": 100,
+   "glb_reimported": 100,
+   "glb_parsed": 100,
+   "all_agree": true
+  },
+  "headline": {
+   "iou": 0.9381765786212354,
+   "ref_uncovered_frac": 0.04215099660810244,
+   "render_outside_frac": 0.021422564166459008,
+   "boundary_mean_px": 5.410472895242211,
+   "boundary_hd95_px": 19.0,
+   "boundary_max_px": 65.92419889539804,
+   "boundary_mean_norm": 0.003583056132367932,
+   "legs_gap_iou": 0.9160352201257862,
+   "region_iou": {
+    "head": 0.9261657881017205,
+    "tail": 0.8673112297545874,
+    "legs": 0.8865633900471066,
+    "torso": 0.9857112656775799
+   },
+   "landmark_sharp_mean_px": 8.222160782540813,
+   "landmark_sharp_max_px": 33.87783906653268,
+   "landmark_sharp_mean_norm": 0.005445081083227405,
+   "landmark_fuzzy_mean_px": 140.33486914239785,
+   "raster_vs_blender_iou": 0.9999883192352993
+  },
+  "hard_failures": [],
+  "render_error": null,
+  "evaluation_errors": [],
+  "elapsed_s": 27.65,
+  "camera_status": "locked",
+  "provenance": {
+   "reference_sha256": "b2e4800a41bd0854c7b280a9f33a342a7f654c8596a4f65d7e4c3508e7c2ad16",
+   "mask_sha256": "b3786f1338105868d2f22f8561671d8bdc726ef924e9b38a8c66d53af89ec5ad",
+   "landmarks_sha256": "d49f4971ef2e520f90c1ad419ff032e3ff392f497e024976a7f7e16a78d2be0e",
+   "regions_sha256": "12e0cb659621c569018a6577e6e0b8f8d53caaa499ab99e448ed794ce033118d",
+   "camera_sha256": "333638cc81b4bc5f207dc0872979311e3a2b994c927df4571f2fbaf75cb02800",
+   "scene_sha256": "dc62cacdfcd66115be7613955854d8629ab15eeabd8a1c9ab729d75fea511288",
+   "mesh_sha256": "4f821072b92a93d75c11ec97e84ed36213aec8ec6d74b09d7d43954d62174871",
+   "proxy_sha256": "b6cf1e9a0477d90f04f4a25550ad51b83f6b2c7a600d4e014b3cc2c2252ce45c",
+   "tooling_hash": "00a32edb9cb31ed79646e9c5102d2ea85c730ae3dd670aed18213e774578e23b",
+   "derived_dir": "reference/derived"
+  }
+ },
+ {
+  "tag": "final",
+  "timestamp": "2026-11-11T15:17:12+03:00",
+  "mesh": "variants/100/final/mesh.json",
+  "official": true,
+  "valid": true,
+  "triangles": {
+   "target_budget": 100,
+   "mesh_json": 100,
+   "blend_evaluated": 100,
+   "glb_reimported": 100,
+   "glb_parsed": 100,
+   "all_agree": true
+  },
+  "headline": {
+   "iou": 0.9431783595647864,
+   "ref_uncovered_frac": 0.03745950684096193,
+   "render_outside_frac": 0.020882156252725846,
+   "boundary_mean_px": 4.920037068767412,
+   "boundary_hd95_px": 18.0,
+   "boundary_max_px": 49.0,
+   "boundary_mean_norm": 0.0032582676841846426,
+   "legs_gap_iou": 0.913263872159319,
+   "region_iou": {
+    "head": 0.9388948603261561,
+    "tail": 0.8617106137824064,
+    "legs": 0.8826022865449803,
+    "torso": 0.9924882759482511
+   },
+   "landmark_sharp_mean_px": 8.56677772433707,
+   "landmark_sharp_max_px": 42.376083245097284,
+   "landmark_sharp_mean_norm": 0.0056733017712391285,
+   "landmark_fuzzy_mean_px": 112.89839582481673,
+   "raster_vs_blender_iou": 0.9999903081616909
+  },
+  "hard_failures": [],
+  "render_error": null,
+  "evaluation_errors": [],
+  "elapsed_s": 194.71,
+  "camera_status": "locked",
+  "provenance": {
+   "reference_sha256": "b2e4800a41bd0854c7b280a9f33a342a7f654c8596a4f65d7e4c3508e7c2ad16",
+   "mask_sha256": "b3786f1338105868d2f22f8561671d8bdc726ef924e9b38a8c66d53af89ec5ad",
+   "landmarks_sha256": "d49f4971ef2e520f90c1ad419ff032e3ff392f497e024976a7f7e16a78d2be0e",
+   "regions_sha256": "12e0cb659621c569018a6577e6e0b8f8d53caaa499ab99e448ed794ce033118d",
+   "camera_sha256": "333638cc81b4bc5f207dc0872979311e3a2b994c927df4571f2fbaf75cb02800",
+   "scene_sha256": "dc62cacdfcd66115be7613955854d8629ab15eeabd8a1c9ab729d75fea511288",
+   "mesh_sha256": "126393ab239a6a4bec954f12f0f8de720ac9c536b2b07bb6ade76e2dd09cb881",
+   "proxy_sha256": "b6cf1e9a0477d90f04f4a25550ad51b83f6b2c7a600d4e014b3cc2c2252ce45c",
+   "tooling_hash": "00a32edb9cb31ed79646e9c5102d2ea85c730ae3dd670aed18213e774578e23b",
+   "derived_dir": "reference/derived"
+  }
+ }
+]

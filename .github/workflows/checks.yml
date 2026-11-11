@@ -1,0 +1,27 @@
+name: checks
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: checks-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  smoke:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      # Blender and the GPU are not available here; the suites that need them are run locally.
+      - run: pip install numpy scipy scikit-image Pillow opencv-python-headless cma
+      - run: python tests/smoke.py
+      - run: python tests/test_headkit.py
+      - run: python -m compileall -q skills/image-to-lowpoly/scripts tests examples

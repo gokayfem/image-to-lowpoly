@@ -1,0 +1,59 @@
+{
+  "status": "locked",
+  "resolution": [
+    1536,
+    1536
+  ],
+  "focal_length_mm": 85.0,
+  "sensor_width_mm": 36.0,
+  "sensor_fit": "HORIZONTAL",
+  "f_px": 3626.666666666667,
+  "location": [
+    0.98331,
+    -0.937249,
+    0.210279
+  ],
+  "look_at": [
+    -0.020223,
+    -0.02052,
+    0.204175
+  ],
+  "roll_deg": 0.0,
+  "matrix_world": [
+    [
+      0.674453805,
+      -0.003315616,
+      0.738309604,
+      0.98331
+    ],
+    [
+      0.738317049,
+      0.003028821,
+      -0.674447004,
+      -0.937249
+    ],
+    [
+      -0.0,
+      0.999989916,
+      0.004490776,
+      0.210279
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "clip_start": 0.05,
+  "clip_end": 50.0,
+  "fit_summary": {
+    "method": "joint CMA-ES fit of camera (look_at + azimuth/elevation/distance) and the parametric proxy cat to reference/derived/mask.png + landmarks.json (scripts/fit_camera_proxy.py); gauge: withers 0.25 m; 85 mm, roll 0 fixed",
+    "azimuth_deg": -42.412,
+    "elevation_deg": 0.257,
+    "distance_to_look_at_m": 1.3592,
+    "camera_height_m": 0.2103,
+    "proxy_raster_iou": 0.9460869887511351,
+    "details": "proxy/fit_report.json"
+  }
+}

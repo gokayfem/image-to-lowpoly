@@ -1,0 +1,249 @@
+{
+ "spacing_m": 0.002,
+ "grid_shape": [
+  381,
+  122,
+  250
+ ],
+ "marching_cubes_triangles": 203476,
+ "decimation": "Blender Decimate COLLAPSE (CPU, background) to ~60000",
+ "triangles": 60000,
+ "vertices": 30002,
+ "removed_small_component_triangles": 0,
+ "watertight_closed_manifold": true,
+ "boundary_edges": 0,
+ "non_manifold_edges": 0,
+ "components": 1,
+ "inconsistent_winding_edges": 0,
+ "degenerate_triangles": 604,
+ "signed_volume_m3": 0.0061897984440599865,
+ "min_z": -0.0,
+ "bbox_min": [
+  -0.4896131455898285,
+  -0.07178022712469101,
+  -0.0
+ ],
+ "bbox_max": [
+  0.17030949890613556,
+  0.06948211044073105,
+  0.39653435349464417
+ ],
+ "bbox_center": [
+  -0.15965182334184647,
+  -0.0011490583419799805,
+  0.19826717674732208
+ ],
+ "fused_vs_unfused_parts_silhouette_iou_1536": 0.9871768715759289,
+ "raster_iou_vs_reference_fused": 0.9500874993301266,
+ "raster_iou_vs_reference_parts": 0.9545495771472572,
+ "sdf_at_mesh_vertices_abs_mean_mm": 0.0067548762268601495,
+ "sdf_at_mesh_vertices_abs_max_mm": 0.051186539817937755,
+ "union_order_blend_m": [
+  [
+   "torso",
+   0.0
+  ],
+  [
+   "neck",
+   0.014
+  ],
+  [
+   "head",
+   0.01
+  ],
+  [
+   "ear_R",
+   0.003
+  ],
+  [
+   "ear_L",
+   0.003
+  ],
+  [
+   "leg_FR",
+   0.013
+  ],
+  [
+   "leg_FL",
+   0.013
+  ],
+  [
+   "leg_HR",
+   0.016
+  ],
+  [
+   "leg_HL",
+   0.016
+  ],
+  [
+   "tail",
+   0.008
+  ]
+ ],
+ "sdf_blur_sigma_voxels": 1.0,
+ "unblurred_parts": [
+  "ear_R",
+  "ear_L"
+ ],
+ "landmarks": {
+  "ear_tip_R": {
+   "model_point": [
+    0.10637119940719929,
+    -0.0429366247692438,
+    0.34581503417007775
+   ],
+   "method": "ear_apex_vertex",
+   "moved_mm": 0.8570975439630102
+  },
+  "ear_tip_L": {
+   "model_point": [
+    0.15229255405306727,
+    0.0465880938607114,
+    0.34930620594021994
+   ],
+   "method": "ear_apex_vertex",
+   "moved_mm": 0.7663913990054155
+  },
+  "eye_R": {
+   "model_point": [
+    0.140796602948499,
+    -0.02744995133564598,
+    0.2881291392426861
+   ],
+   "method": "camera_ray_first_hit",
+   "moved_mm": 0.0025740819447883207
+  },
+  "eye_L": {
+   "model_point": [
+    0.15840135713015188,
+    0.0064026382266294014,
+    0.288647028986149
+   ],
+   "method": "camera_ray_first_hit",
+   "moved_mm": 0.037560831001477044
+  },
+  "nose": {
+   "model_point": [
+    0.16449272170200602,
+    -0.01791433069917969,
+    0.26520322177641176
+   ],
+   "method": "camera_ray_first_hit",
+   "moved_mm": 0.5944485093159445
+  },
+  "chin": {
+   "model_point": [
+    0.1476802908988596,
+    -0.008832921585789225,
+    0.2430932958282597
+   ],
+   "method": "camera_ray_first_hit",
+   "moved_mm": 9.11416692048394
+  },
+  "paw_FR": {
+   "model_point": [
+    0.1143343725564644,
+    -0.04012215044523817,
+    0.0
+   ],
+   "method": "closest_point",
+   "moved_mm": 0.00016680213202659703
+  },
+  "shoulder_R": {
+   "model_point": [
+    0.10841301034578374,
+    -0.052503722226027366,
+    0.17827993363055628
+   ],
+   "method": "camera_ray_first_hit",
+   "moved_mm": 0.08154708572312054
+  },
+  "paw_FL": {
+   "model_point": [
+    0.12454107256562229,
+    0.03985919721724265,
+    0.0
+   ],
+   "method": "closest_point",
+   "moved_mm": 1.3877787807814457e-14
+  },
+  "paw_HR": {
+   "model_point": [
+    -0.16857227415035064,
+    -0.051606903674938906,
+    0.0
+   ],
+   "method": "closest_point",
+   "moved_mm": 0.00025201992699666197
+  },
+  "hip_R": {
+   "model_point": [
+    -0.12611078768010553,
+    -0.06205034583997497,
+    0.18104774769899823
+   ],
+   "method": "camera_ray_first_hit",
+   "moved_mm": 0.40069168985723075
+  },
+  "hock_HR": {
+   "model_point": [
+    -0.21067827854356985,
+    -0.04456974573679999,
+    0.08143919582987053
+   ],
+   "method": "camera_ray_first_hit",
+   "moved_mm": 27.162398363839653
+  },
+  "paw_HL": {
+   "model_point": [
+    -0.13557369165155903,
+    0.049315943444013875,
+    0.0
+   ],
+   "method": "closest_point",
+   "moved_mm": 3.580329158258011e-05
+  },
+  "tail_base": {
+   "model_point": [
+    -0.21735948202925806,
+    -0.0005497347984296401,
+    0.2340266907425131
+   ],
+   "method": "camera_ray_first_hit",
+   "tail_t_of_junction": 0.03,
+   "moved_mm": 55.82728317459387
+  },
+  "tail_mid": {
+   "model_point": [
+    -0.35926603782150257,
+    -0.009964544344936588,
+    0.2798863183124103
+   ],
+   "method": "camera_ray_first_hit",
+   "moved_mm": 26.251176933186358
+  },
+  "tail_tip": {
+   "model_point": [
+    -0.48343415011065516,
+    0.005707479109198398,
+    0.392216807920423
+   ],
+   "method": "camera_ray_first_hit",
+   "moved_mm": 14.940088283009832
+  }
+ },
+ "region_triangle_counts": {
+  "head": 5410,
+  "ears": 1873,
+  "eyes": 70,
+  "nose": 87,
+  "neck": 3123,
+  "torso": 16563,
+  "leg_FR": 4975,
+  "leg_FL": 4183,
+  "leg_HR": 7033,
+  "leg_HL": 6984,
+  "tail": 9699
+ },
+ "seconds": 7.2
+}

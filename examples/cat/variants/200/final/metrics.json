@@ -1,0 +1,536 @@
+{
+ "name": "cat_200",
+ "tag": "final",
+ "budget": 200,
+ "official": true,
+ "camera_status": "locked",
+ "warnings": [],
+ "triangles": {
+  "target_budget": 200,
+  "mesh_json": 200,
+  "blend_evaluated": 200,
+  "glb_reimported": 200,
+  "glb_parsed": 200,
+  "all_agree": true
+ },
+ "validation": {
+  "valid": true,
+  "hard_failures": [],
+  "disclosed": {
+   "components": 1,
+   "component_triangles": [
+    200
+   ],
+   "components_after_weld": 1,
+   "boundary_edges": 0,
+   "non_manifold_edges": 0,
+   "closed_manifold": true,
+   "inconsistent_winding_edges": 0,
+   "signed_volume_m3": 0.005688373982332907,
+   "component_signed_volume_m3": [
+    0.005688373982332905
+   ],
+   "components_with_negative_volume": 0,
+   "unwelded_coincident_vertex_groups": 0,
+   "unused_vertices": 0,
+   "self_intersecting_pairs": 0,
+   "hidden_triangles": 0,
+   "hidden_census": {
+    "directions": 162,
+    "raster_size": 512,
+    "hidden_by_raster_only": 0
+   },
+   "flat_redundant_vertices": 0,
+   "flat_angle_tol_deg": 0.5,
+   "bbox_min": [
+    -0.4876431,
+    -0.0718487,
+    0.0
+   ],
+   "bbox_max": [
+    0.1752031,
+    0.0680474,
+    0.4003495
+   ],
+   "bbox_extent_m": [
+    0.6628461999999999,
+    0.1398961,
+    0.4003495
+   ],
+   "min_extent_ratio": 0.21105363506647545,
+   "min_z": 0.0,
+   "min_triangle_area_m2": 2.792405179751824e-05,
+   "min_edge_m": 0.008017832685956957,
+   "landmark_surface_dist_mm": {
+    "ear_tip_R": 0.0,
+    "ear_tip_L": 0.0,
+    "eye_R": 1.734723475976807e-14,
+    "eye_L": 2.7809732887839817e-14,
+    "nose": 0.0,
+    "chin": 0.0,
+    "paw_FR": 0.0,
+    "shoulder_R": 0.0,
+    "paw_FL": 0.0,
+    "paw_HR": 6.938893903907228e-15,
+    "hip_R": 6.938893903907228e-15,
+    "hock_HR": 1.3877787807814457e-14,
+    "paw_HL": 0.0,
+    "tail_base": 3.469446951953614e-15,
+    "tail_mid": 0.0,
+    "tail_tip": 0.0
+   },
+   "landmarks_off_surface_gt_2mm": [],
+   "glb_bbox_matches_mesh": true
+  },
+  "region_allocation": {
+   "head": {
+    "triangles": 22,
+    "pct": 11.0
+   },
+   "ears": {
+    "triangles": 8,
+    "pct": 4.0
+   },
+   "eyes": {
+    "triangles": 0,
+    "pct": 0.0
+   },
+   "nose": {
+    "triangles": 0,
+    "pct": 0.0
+   },
+   "neck": {
+    "triangles": 27,
+    "pct": 13.5
+   },
+   "torso": {
+    "triangles": 43,
+    "pct": 21.5
+   },
+   "leg_FR": {
+    "triangles": 18,
+    "pct": 9.0
+   },
+   "leg_FL": {
+    "triangles": 18,
+    "pct": 9.0
+   },
+   "leg_HR": {
+    "triangles": 18,
+    "pct": 9.0
+   },
+   "leg_HL": {
+    "triangles": 18,
+    "pct": 9.0
+   },
+   "tail": {
+    "triangles": 28,
+    "pct": 14.0
+   }
+  }
+ },
+ "render": {
+  "requested": true,
+  "ok": true,
+  "error": null,
+  "passes": "silhouette,clay,wire,beauty",
+  "views": true,
+  "turntable": true,
+  "dir": "variants/200/final/renders"
+ },
+ "evaluation_errors": [],
+ "metrics": {
+  "official": true,
+  "silhouette_source": "blender_render",
+  "camera_status": "locked",
+  "image_size": [
+   1536,
+   1536
+  ],
+  "iou": 0.9716432795835761,
+  "ref_uncovered_frac": 0.017912267998018216,
+  "render_outside_frac": 0.010826818880620934,
+  "ref_area_px": 524780,
+  "render_area_px": 521021,
+  "boundary_mean_px": 2.3514687017635483,
+  "boundary_hd95_px": 8.0,
+  "boundary_max_px": 25.632011235952593,
+  "boundary_R_to_M_mean_px": 2.3681095787402375,
+  "boundary_M_to_R_mean_px": 2.3348278247868595,
+  "boundary_mean_norm": 0.0015572473081482757,
+  "boundary_hd95_norm": 0.005297956318041998,
+  "boundary_max_norm": 0.016974659483954813,
+  "diag_px": 1510.016225078393,
+  "region_iou": {
+   "head": 0.9742309625974815,
+   "tail": 0.9427469660882386,
+   "legs": 0.9413288335208255,
+   "torso": 0.9944523861695727
+  },
+  "legs_gap_iou": 0.9563625282773296,
+  "raster_vs_blender_iou": 0.9999923228104656,
+  "raster_dropped_behind_camera": 0,
+  "landmark_sharp_mean_px": 5.2382678983132305,
+  "landmark_sharp_max_px": 13.094504428864163,
+  "landmark_sharp_mean_norm": 0.0034690143134331448,
+  "landmark_sharp_n": 12,
+  "landmark_fuzzy_mean_px": 18.328469663993232,
+  "landmark_fuzzy_max_px": 31.731588248928933,
+  "landmark_fuzzy_n": 4,
+  "landmark_flags": {
+   "off_surface": [],
+   "occluded": [],
+   "missing_in_reference": [],
+   "missing_in_mesh": []
+  },
+  "landmarks": {
+   "ear_tip_R": {
+    "proj_uv": [
+     969.0998751638688,
+     361.51494301383974
+    ],
+    "depth_m": 1.2522821438473537,
+    "surface_dist_mm": 0.0,
+    "off_surface": false,
+    "first_hit_m": 1.262035242292849,
+    "occluded": false,
+    "occluded_tol_m": 0.025,
+    "class": "sharp",
+    "ref_uv": [
+     969.0,
+     362.0
+    ],
+    "error_px": 0.49523260007867864
+   },
+   "ear_tip_L": {
+    "proj_uv": [
+     1240.121609818654,
+     357.82398326648894
+    ],
+    "depth_m": 1.2773238369150908,
+    "surface_dist_mm": 0.0,
+    "off_surface": false,
+    "first_hit_m": 1.2961776022958007,
+    "occluded": false,
+    "occluded_tol_m": 0.025,
+    "class": "sharp",
+    "ref_uv": [
+     1240.0,
+     358.0
+    ],
+    "error_px": 0.21394120329882976
+   },
+   "eye_R": {
+    "proj_uv": [
+     1069.9744269059292,
+     523.9384472163218
+    ],
+    "depth_m": 1.2385107083549352,
+    "surface_dist_mm": 1.734723475976807e-14,
+    "off_surface": false,
+    "first_hit_m": 1.2455883066438302,
+    "occluded": false,
+    "occluded_tol_m": 0.025,
+    "class": "sharp",
+    "ref_uv": [
+     1070.0,
+     524.0
+    ],
+    "error_px": 0.0666537944822547
+   },
+   "eye_L": {
+    "proj_uv": [
+     1174.9606441055798,
+     523.1415063011872
+    ],
+    "depth_m": 1.247908008807786,
+    "surface_dist_mm": 2.7809732887839817e-14,
+    "off_surface": false,
+    "first_hit_m": 1.2585635012991507,
+    "occluded": false,
+    "occluded_tol_m": 0.025,
+    "class": "sharp",
+    "ref_uv": [
+     1175.0,
+     523.0
+    ],
+    "error_px": 0.14687722662580402
+   },
+   "nose": {
+    "proj_uv": [
+     1142.7517206424832,
+     589.4743721138323
+    ],
+    "depth_m": 1.222147245378213,
+    "surface_dist_mm": 0.0,
+    "off_surface": false,
+    "first_hit_m": 1.2301267129918934,
+    "occluded": false,
+    "occluded_tol_m": 0.025,
+    "class": "sharp",
+    "ref_uv": [
+     1143.0,
+     589.0
+    ],
+    "error_px": 0.5354171660963554
+   },
+   "paw_FR": {
+    "proj_uv": [
+     987.1572164208137,
+     1359.084860439435
+    ],
+    "depth_m": 1.2556062303884625,
+    "surface_dist_mm": 0.0,
+    "off_surface": false,
+    "first_hit_m": 1.2584818503460764,
+    "occluded": false,
+    "occluded_tol_m": 0.06,
+    "class": "sharp",
+    "ref_uv": [
+     987.0,
+     1357.0
+    ],
+    "error_px": 2.090779771973776
+   },
+   "paw_FL": {
+    "proj_uv": [
+     1163.601684548858,
+     1339.4586879618641
+    ],
+    "depth_m": 1.2975338141047807,
+    "surface_dist_mm": 0.0,
+    "off_surface": false,
+    "first_hit_m": 1.3042297405120562,
+    "occluded": false,
+    "occluded_tol_m": 0.06,
+    "class": "sharp",
+    "ref_uv": [
+     1170.0,
+     1347.0
+    ],
+    "error_px": 9.88988512920426
+   },
+   "paw_HR": {
+    "proj_uv": [
+     454.4448254314465,
+     1278.794651241516
+    ],
+    "depth_m": 1.446872501644941,
+    "surface_dist_mm": 6.938893903907228e-15,
+    "off_surface": false,
+    "first_hit_m": 1.446974132596532,
+    "occluded": false,
+    "occluded_tol_m": 0.06,
+    "class": "sharp",
+    "ref_uv": [
+     463.0,
+     1283.0
+    ],
+    "error_px": 9.53288886324118
+   },
+   "paw_HL": {
+    "proj_uv": [
+     701.0411291242946,
+     1262.9088933151795
+    ],
+    "depth_m": 1.4918350680149968,
+    "surface_dist_mm": 0.0,
+    "off_surface": false,
+    "first_hit_m": 1.4834058990178722,
+    "occluded": false,
+    "occluded_tol_m": 0.06,
+    "class": "sharp",
+    "ref_uv": [
+     711.0,
+     1271.0
+    ],
+    "error_px": 12.8314113216014
+   },
+   "tail_base": {
+    "proj_uv": [
+     483.07356425131195,
+     692.2612609469979
+    ],
+    "depth_m": 1.485072033782139,
+    "surface_dist_mm": 3.469446951953614e-15,
+    "off_surface": false,
+    "first_hit_m": 1.5624034508839646,
+    "occluded": false,
+    "occluded_tol_m": 0.025,
+    "class": "sharp",
+    "ref_uv": [
+     495.0,
+     697.0
+    ],
+    "error_px": 12.83337513984654
+   },
+   "tail_mid": {
+    "proj_uv": [
+     269.0717720912463,
+     594.3586445585398
+    ],
+    "depth_m": 1.592478570267634,
+    "surface_dist_mm": 0.0,
+    "off_surface": false,
+    "first_hit_m": 1.6092848840586247,
+    "occluded": false,
+    "occluded_tol_m": 0.025,
+    "class": "sharp",
+    "ref_uv": [
+     270.0,
+     595.0
+    ],
+    "error_px": 1.1282481344455288
+   },
+   "tail_tip": {
+    "proj_uv": [
+     156.83939762363877,
+     352.279612564826
+    ],
+    "depth_m": 1.7257666020102933,
+    "surface_dist_mm": 0.0,
+    "off_surface": false,
+    "first_hit_m": 1.7612445970919768,
+    "occluded": false,
+    "occluded_tol_m": 0.025,
+    "class": "sharp",
+    "ref_uv": [
+     151.0,
+     364.0
+    ],
+    "error_px": 13.094504428864163
+   },
+   "shoulder_R": {
+    "proj_uv": [
+     963.3526886471877,
+     857.4811743949184
+    ],
+    "depth_m": 1.239110567233448,
+    "surface_dist_mm": 0.0,
+    "off_surface": false,
+    "first_hit_m": 1.2412834677177635,
+    "occluded": false,
+    "occluded_tol_m": 0.025,
+    "class": "fuzzy",
+    "ref_uv": [
+     975.0,
+     860.0
+    ],
+    "error_px": 11.916557564085533
+   },
+   "hip_R": {
+    "proj_uv": [
+     530.2634840143069,
+     844.0589561686295
+    ],
+    "depth_m": 1.3993940491062027,
+    "surface_dist_mm": 6.938893903907228e-15,
+    "off_surface": false,
+    "first_hit_m": 1.4027045568052425,
+    "occluded": false,
+    "occluded_tol_m": 0.025,
+    "class": "fuzzy",
+    "ref_uv": [
+     535.0,
+     830.0
+    ],
+    "error_px": 14.835391205969994
+   },
+   "hock_HR": {
+    "proj_uv": [
+     417.50320326034864,
+     1085.7714845585028
+    ],
+    "depth_m": 1.4529994309768401,
+    "surface_dist_mm": 1.3877787807814457e-14,
+    "off_surface": false,
+    "first_hit_m": 1.4653105101676511,
+    "occluded": false,
+    "occluded_tol_m": 0.025,
+    "class": "fuzzy",
+    "ref_uv": [
+     412.0,
+     1072.0
+    ],
+    "error_px": 14.830341636988472
+   },
+   "chin": {
+    "proj_uv": [
+     1108.4632945737176,
+     658.5113962544056
+    ],
+    "depth_m": 1.231886696239355,
+    "surface_dist_mm": 0.0,
+    "off_surface": false,
+    "first_hit_m": 1.23786192119917,
+    "occluded": false,
+    "occluded_tol_m": 0.025,
+    "class": "fuzzy",
+    "ref_uv": [
+     1140.0,
+     655.0
+    ],
+    "error_px": 31.731588248928933
+   }
+  },
+  "secondary": {
+   "proxy_path": "proxy/proxy_mesh.npz",
+   "note": "inferred proxy geometry, NOT ground truth",
+   "novel_view_iou_vs_proxy": 0.9345251816695508,
+   "novel_view_iou_per_view": {
+    "front": 0.9383184257602862,
+    "side_R": 0.9317699967876646,
+    "back": 0.9534292229433433,
+    "side_L": 0.9399607545258893,
+    "threeq_front_L": 0.9270380292961274,
+    "threeq_back_L": 0.9361081868977245,
+    "threeq_back_R": 0.9203792646571712,
+    "top": 0.9291975724881996
+   },
+   "novel_view_size": 512,
+   "chamfer_mm_vs_proxy": 4.2568754587476505,
+   "chamfer_mesh_to_proxy_mm": 4.375308164620876,
+   "chamfer_proxy_to_mesh_mm": 4.138442752874425,
+   "chamfer_samples": 20000,
+   "chamfer_seed": 0,
+   "chamfer_definition": "0.5*(mean NN dist mesh->proxy + proxy->mesh) between area-weighted surface point samples, mm"
+  },
+  "overlay": "variants/200/final/renders/ref_overlay.png"
+ },
+ "provenance": {
+  "reference_sha256": "b2e4800a41bd0854c7b280a9f33a342a7f654c8596a4f65d7e4c3508e7c2ad16",
+  "mask_sha256": "b3786f1338105868d2f22f8561671d8bdc726ef924e9b38a8c66d53af89ec5ad",
+  "landmarks_sha256": "d49f4971ef2e520f90c1ad419ff032e3ff392f497e024976a7f7e16a78d2be0e",
+  "regions_sha256": "12e0cb659621c569018a6577e6e0b8f8d53caaa499ab99e448ed794ce033118d",
+  "camera_sha256": "333638cc81b4bc5f207dc0872979311e3a2b994c927df4571f2fbaf75cb02800",
+  "scene_sha256": "dc62cacdfcd66115be7613955854d8629ab15eeabd8a1c9ab729d75fea511288",
+  "mesh_sha256": "94a21c7f267abc686168b55a2b23c19fd9e158c3efb359501748d06e303e050d",
+  "proxy_sha256": "b6cf1e9a0477d90f04f4a25550ad51b83f6b2c7a600d4e014b3cc2c2252ce45c",
+  "tooling_hash": "00a32edb9cb31ed79646e9c5102d2ea85c730ae3dd670aed18213e774578e23b",
+  "tooling_files": [
+   "catlib/__init__.py",
+   "catlib/paths.py",
+   "catlib/camera.py",
+   "catlib/raster.py",
+   "catlib/geom.py",
+   "catlib/meshio.py",
+   "catlib/metrics.py",
+   "catlib/overlay.py",
+   "catlib/provenance.py",
+   "catlib/gpulock.py",
+   "scripts/assemble_variant.py",
+   "scripts/validate_variant.py",
+   "scripts/evaluate.py",
+   "scripts/render_variant.py"
+  ],
+  "derived_dir": "reference/derived"
+ },
+ "timings": {
+  "assemble_s": 0.84,
+  "validate_s": 2.02,
+  "render_s": 146.47,
+  "metrics_s": 0.46
+ },
+ "elapsed_s": 150.01,
+ "timestamp": "2026-11-11T15:19:42+03:00"
+}

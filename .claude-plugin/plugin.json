@@ -1,0 +1,21 @@
+{
+  "name": "image-to-lowpoly",
+  "displayName": "Image 2 Low Poly",
+  "version": "0.1.0",
+  "description": "Match one photo with exactly N triangles: editable low-poly meshes of one reference photo under hard triangle budgets, through one locked camera, with an inferred proxy for the hidden side, a build per budget welded into one closed surface, a shared vertex optimiser, a four-way triangle count, render-based metrics, a decimation control and a blind reviewer.",
+  "author": {
+    "name": "gokayfem",
+    "url": "https://github.com/gokayfem"
+  },
+  "homepage": "https://github.com/gokayfem/image-to-lowpoly",
+  "repository": "https://github.com/gokayfem/image-to-lowpoly",
+  "license": "MIT",
+  "keywords": [
+    "blender",
+    "low-poly",
+    "mesh",
+    "triangle-budget",
+    "reconstruction",
+    "3d"
+  ]
+}

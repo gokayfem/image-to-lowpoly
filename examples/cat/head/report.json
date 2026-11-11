@@ -1,0 +1,790 @@
+{
+ "lods": {
+  "L0": {
+   "triangles": 22,
+   "neck_loop": 4,
+   "objective": {
+    "shared": 75.49370765783483,
+    "after_lod_adjust": 64.2118050447589
+   },
+   "landmark_px": {
+    "ear_tip_R": 4.727267810629579,
+    "ear_tip_L": 4.456169936863393,
+    "eye_R": 4.250087737724229,
+    "eye_L": 6.957925913733213,
+    "nose": 4.529254642339456,
+    "chin": 19.848890281017074
+   },
+   "outline_boundary_mean_px": 9.213107119513902,
+   "outline_boundary_hd95_px": 22.0,
+   "pixels_outside_mask": 211,
+   "max_px_outside_mask": 4.0,
+   "head_pixels": 64416,
+   "priors": {
+    "depth_mm": 88.66555788418479,
+    "width_mm": 88.67718295234458,
+    "depth_over_width": 0.999868905757121
+   },
+   "ear_min_thickness_mm": {
+    "base_thickness": 12.931115402387114
+   },
+   "checks_world": {
+    "triangles": 22,
+    "boundary_is_neck_loop": true,
+    "boundary_edges": 4,
+    "non_manifold_edges": 0,
+    "inconsistent_winding_edges": 0,
+    "degenerate_triangles": 0,
+    "min_triangle_area_mm2": 170.04960755262388,
+    "min_edge_mm": 16.47867001959208,
+    "duplicates": 0,
+    "components": 1,
+    "self_intersecting_pairs": 0,
+    "ok": true
+   },
+   "mirror_symmetry_local": {
+    "max_err_m": 0.0,
+    "triangulation_symmetric": true
+   },
+   "per_lod_shape_delta_mm": {
+    "skull_w": 2.575488442154935,
+    "skull_h": 1.1125196918205624,
+    "cheek_w": -0.5311641534635037,
+    "cheek_y": -0.5622101617190651,
+    "ear_out_y": -4.205839031750287,
+    "ear_in_y": -1.383693470897411,
+    "ear_tip_y": -0.4810653665601805,
+    "ear_tip_z": 0.22213936925270872
+   },
+   "depth_align": {
+    "mean_abs_proxy_sdf_mm": {
+     "before": 34.43701538500418,
+     "after": 5.189457461780387
+    },
+    "head_width_mm": {
+     "before": 91.23289172276044,
+     "after": 93.86690234944533
+    },
+    "max_projected_landmark_shift_px": 4.547473508864641e-13,
+    "max_landmark_error_change_px": 3.2596148002994596e-13,
+    "outline_boundary_change_px": 0.0,
+    "pixels_outside_mask": {
+     "before": 211,
+     "after": 211
+    },
+    "ear_thickness_world_mm": {
+     "before": {
+      "base_thickness": 13.303794866764106
+     },
+     "after": {
+      "base_thickness": 13.687892492001938
+     }
+    },
+    "bbox_centre_after": [
+     0.12351356367536753,
+     0.0035988723084238172,
+     0.28892486034506565
+    ]
+   }
+  },
+  "L1": {
+   "triangles": 32,
+   "neck_loop": 6,
+   "objective": {
+    "shared": 55.69423746321175,
+    "after_lod_adjust": 45.31393594227909
+   },
+   "landmark_px": {
+    "ear_tip_R": 4.1710194281985515,
+    "ear_tip_L": 3.4354619477213038,
+    "eye_R": 3.329483566237367,
+    "eye_L": 6.075757909586544,
+    "nose": 4.53661723557942,
+    "chin": 17.96554730923439
+   },
+   "outline_boundary_mean_px": 7.182962816165336,
+   "outline_boundary_hd95_px": 20.36118822161908,
+   "pixels_outside_mask": 235,
+   "max_px_outside_mask": 3.605551275463989,
+   "head_pixels": 67740,
+   "priors": {
+    "depth_mm": 88.67191662333263,
+    "width_mm": 98.83463208926078,
+    "depth_over_width": 0.8971745505487402
+   },
+   "ear_min_thickness_mm": {
+    "base_thickness": 12.932927027428244
+   },
+   "checks_world": {
+    "triangles": 32,
+    "boundary_is_neck_loop": true,
+    "boundary_edges": 6,
+    "non_manifold_edges": 0,
+    "inconsistent_winding_edges": 0,
+    "degenerate_triangles": 0,
+    "min_triangle_area_mm2": 165.32557985354606,
+    "min_edge_mm": 15.598178113366625,
+    "duplicates": 0,
+    "components": 1,
+    "self_intersecting_pairs": 0,
+    "ok": true
+   },
+   "mirror_symmetry_local": {
+    "max_err_m": 0.0,
+    "triangulation_symmetric": true
+   },
+   "per_lod_shape_delta_mm": {
+    "skull_w": 2.211903826081553,
+    "skull_h": 0.8009243440570337,
+    "cheek_w": 1.4743642141378928,
+    "cheek_y": -0.8869766001176203,
+    "ear_out_y": -3.8977435147732606,
+    "ear_in_y": -2.4191462309290195,
+    "ear_tip_y": -0.13985151508289562,
+    "ear_tip_z": -0.27068446698594073
+   },
+   "depth_align": {
+    "mean_abs_proxy_sdf_mm": {
+     "before": 30.22313974943085,
+     "after": 5.793759633818144
+    },
+    "head_width_mm": {
+     "before": 101.68308225018991,
+     "after": 104.61880328394791
+    },
+    "max_projected_landmark_shift_px": 2.5421149729252077e-13,
+    "max_landmark_error_change_px": 2.007283228522283e-13,
+    "outline_boundary_change_px": 0.0,
+    "pixels_outside_mask": {
+     "before": 235,
+     "after": 235
+    },
+    "ear_thickness_world_mm": {
+     "before": {
+      "base_thickness": 13.305658703499972
+     },
+     "after": {
+      "base_thickness": 13.689810140095483
+     }
+    },
+    "bbox_centre_after": [
+     0.12159793456383,
+     0.0012531448503154685,
+     0.2886697741281691
+    ]
+   }
+  },
+  "L2": {
+   "triangles": 50,
+   "neck_loop": 6,
+   "objective": {
+    "shared": 34.63524870899523,
+    "after_lod_adjust": 29.134837152415773
+   },
+   "landmark_px": {
+    "ear_tip_R": 4.8604093473775185,
+    "ear_tip_L": 3.4957886781107557,
+    "eye_R": 1.2199950394528851,
+    "eye_L": 1.824006830466128,
+    "nose": 1.3132051857699225,
+    "chin": 17.93039247974981
+   },
+   "outline_boundary_mean_px": 7.239334007429068,
+   "outline_boundary_hd95_px": 20.255920027873373,
+   "pixels_outside_mask": 152,
+   "max_px_outside_mask": 2.8284271247461903,
+   "head_pixels": 67542,
+   "priors": {
+    "depth_mm": 88.52378093598908,
+    "width_mm": 99.12850597578876,
+    "depth_over_width": 0.8930204290339069
+   },
+   "ear_min_thickness_mm": {
+    "base_thickness": 12.75584251759669
+   },
+   "checks_world": {
+    "triangles": 50,
+    "boundary_is_neck_loop": true,
+    "boundary_edges": 6,
+    "non_manifold_edges": 0,
+    "inconsistent_winding_edges": 0,
+    "degenerate_triangles": 0,
+    "min_triangle_area_mm2": 33.3957654177705,
+    "min_edge_mm": 7.21555970587446,
+    "duplicates": 0,
+    "components": 1,
+    "self_intersecting_pairs": 0,
+    "ok": true
+   },
+   "mirror_symmetry_local": {
+    "max_err_m": 0.0,
+    "triangulation_symmetric": true
+   },
+   "per_lod_shape_delta_mm": {
+    "skull_w": 0.4467790039259043,
+    "skull_h": 0.524147532797894,
+    "cheek_w": -0.08662298955950476,
+    "cheek_y": 1.2416380340706752,
+    "ear_out_y": -0.7917586639140382,
+    "ear_in_y": -2.694900834547676,
+    "ear_tip_y": -0.16581723454877562,
+    "ear_tip_z": 0.06823516108905636
+   },
+   "depth_align": {
+    "mean_abs_proxy_sdf_mm": {
+     "before": 31.40953274994619,
+     "after": 4.449988093180294
+    },
+    "head_width_mm": {
+     "before": 101.9854256893603,
+     "after": 104.92987576608344
+    },
+    "max_projected_landmark_shift_px": 3.2155493553843715e-13,
+    "max_landmark_error_change_px": 2.886579864025407e-13,
+    "outline_boundary_change_px": 0.0,
+    "pixels_outside_mask": {
+     "before": 152,
+     "after": 152
+    },
+    "ear_thickness_world_mm": {
+     "before": {
+      "base_thickness": 13.123470553478082
+     },
+     "after": {
+      "base_thickness": 13.50236198445334
+     }
+    },
+    "bbox_centre_after": [
+     0.12274715318931889,
+     0.001335539065305369,
+     0.28884855631157114
+    ]
+   }
+  },
+  "L3": {
+   "triangles": 120,
+   "neck_loop": 8,
+   "objective": {
+    "shared": 21.319071129846844,
+    "after_lod_adjust": 19.256022799031623
+   },
+   "landmark_px": {
+    "ear_tip_R": 4.668063590680408,
+    "ear_tip_L": 2.724899698923456,
+    "eye_R": 1.5042503906162097,
+    "eye_L": 3.71538219236633,
+    "nose": 1.3239387180790279,
+    "chin": 17.955698498622137
+   },
+   "outline_boundary_mean_px": 4.853574502963468,
+   "outline_boundary_hd95_px": 15.0,
+   "pixels_outside_mask": 101,
+   "max_px_outside_mask": 2.23606797749979,
+   "head_pixels": 70481,
+   "priors": {
+    "depth_mm": 88.53761395078288,
+    "width_mm": 97.7787453816398,
+    "depth_over_width": 0.9054893638204511
+   },
+   "ear_min_thickness_mm": {
+    "cup": 2.940711264495747,
+    "r1ear_fi": 5.9937427722639915,
+    "r1ear_fo": 6.635403954346532
+   },
+   "checks_world": {
+    "triangles": 120,
+    "boundary_is_neck_loop": true,
+    "boundary_edges": 8,
+    "non_manifold_edges": 0,
+    "inconsistent_winding_edges": 0,
+    "degenerate_triangles": 0,
+    "min_triangle_area_mm2": 13.85243433344641,
+    "min_edge_mm": 4.783730893052254,
+    "duplicates": 0,
+    "components": 1,
+    "self_intersecting_pairs": 0,
+    "ok": true
+   },
+   "mirror_symmetry_local": {
+    "max_err_m": 0.0,
+    "triangulation_symmetric": true
+   },
+   "per_lod_shape_delta_mm": {
+    "skull_w": 0.12285822455678641,
+    "skull_h": -0.04518873484650854,
+    "cheek_w": 0.9809929896459906,
+    "cheek_y": -0.5538852753463495,
+    "ear_out_y": -0.9592670103031793,
+    "ear_in_y": 0.8407868980147448,
+    "ear_tip_y": 0.1628163013974202,
+    "ear_tip_z": -0.4123533913398205
+   },
+   "depth_align": {
+    "mean_abs_proxy_sdf_mm": {
+     "before": 29.696199034881165,
+     "after": 4.241033796580352
+    },
+    "head_width_mm": {
+     "before": 100.59676450236907,
+     "after": 103.50112214911077
+    },
+    "max_projected_landmark_shift_px": 2.5421149729252077e-13,
+    "max_landmark_error_change_px": 2.327027459614328e-13,
+    "outline_boundary_change_px": 0.0,
+    "pixels_outside_mask": {
+     "before": 101,
+     "after": 101
+    },
+    "ear_thickness_world_mm": {
+     "before": {
+      "cup": 3.0254636361849943,
+      "r1ear_fi": 6.166484626038528,
+      "r1ear_fo": 6.826638717526693
+     },
+     "after": {
+      "cup": 3.1128126527280253,
+      "r1ear_fi": 6.344518948173495,
+      "r1ear_fo": 7.023732535194404
+     }
+    },
+    "bbox_centre_after": [
+     0.12188081995118771,
+     0.00087373036389371,
+     0.28859973699488967
+    ]
+   }
+  },
+  "L4": {
+   "triangles": 224,
+   "neck_loop": 10,
+   "objective": {
+    "shared": 17.1615882897678,
+    "after_lod_adjust": 15.64080911840646
+   },
+   "landmark_px": {
+    "ear_tip_R": 4.943605690696954,
+    "ear_tip_L": 2.646446746574544,
+    "eye_R": 0.7380639608182602,
+    "eye_L": 1.635209509581876,
+    "nose": 1.3187042706776917,
+    "chin": 17.942093473760035
+   },
+   "outline_boundary_mean_px": 4.521683997337359,
+   "outline_boundary_hd95_px": 14.317821063276353,
+   "pixels_outside_mask": 172,
+   "max_px_outside_mask": 3.0,
+   "head_pixels": 71335,
+   "priors": {
+    "depth_mm": 88.53082767850455,
+    "width_mm": 97.06521985910778,
+    "depth_over_width": 0.9120756930959298
+   },
+   "ear_min_thickness_mm": {
+    "cup": 2.8936263896868355,
+    "in0": 8.118168796672409,
+    "in1": 8.790979059125567,
+    "in4": 5.671825712644226,
+    "r1ear_fi": 5.9816991372071024,
+    "r1ear_fo": 6.561906548672116
+   },
+   "checks_world": {
+    "triangles": 224,
+    "boundary_is_neck_loop": true,
+    "boundary_edges": 10,
+    "non_manifold_edges": 0,
+    "inconsistent_winding_edges": 0,
+    "degenerate_triangles": 0,
+    "min_triangle_area_mm2": 2.6245183187674757,
+    "min_edge_mm": 1.1057957255423279,
+    "duplicates": 0,
+    "components": 1,
+    "self_intersecting_pairs": 0,
+    "ok": true
+   },
+   "mirror_symmetry_local": {
+    "max_err_m": 0.0,
+    "triangulation_symmetric": true
+   },
+   "per_lod_shape_delta_mm": {
+    "skull_w": 0.2628790690075391,
+    "skull_h": -0.1838799891761127,
+    "cheek_w": -0.054511913694998526,
+    "cheek_y": 0.0185050163375422,
+    "ear_out_y": -0.18203027650516646,
+    "ear_in_y": 0.633358669852079,
+    "ear_tip_y": 0.13203785989488637,
+    "ear_tip_z": -0.20021060730319817
+   },
+   "depth_align": {
+    "mean_abs_proxy_sdf_mm": {
+     "before": 27.56147480511593,
+     "after": 3.837303410874467
+    },
+    "head_width_mm": {
+     "before": 99.86267491391686,
+     "after": 102.74583845247665
+    },
+    "max_projected_landmark_shift_px": 3.410605131648481e-13,
+    "max_landmark_error_change_px": 1.5987211554602254e-13,
+    "outline_boundary_change_px": 0.0,
+    "pixels_outside_mask": {
+     "before": 172,
+     "after": 172
+    },
+    "ear_thickness_world_mm": {
+     "before": {
+      "cup": 2.9770217581031244,
+      "in0": 8.352137383659683,
+      "in1": 9.044338283380844,
+      "in4": 5.835289799295073,
+      "r1ear_fi": 6.154093889024655,
+      "r1ear_fo": 6.751023089802015
+     },
+     "after": {
+      "cup": 3.0629721954798614,
+      "in0": 8.593274304880424,
+      "in1": 9.305459932600856,
+      "in4": 6.003762101892215,
+      "r1ear_fi": 6.331770474685959,
+      "r1ear_fo": 6.945933787290049
+     }
+    },
+    "bbox_centre_after": [
+     0.12179012081122864,
+     0.0009492988367491573,
+     0.2887114099593308
+    ]
+   }
+  }
+ },
+ "shared_objective": {
+  "initial": 11393.666038840967,
+  "final": 55.02796744804504
+ },
+ "pose": {
+  "format": "headkit-pose-1",
+  "transform": "world = t + scale * 1e-3 * R @ local_mm ;  R = Rz(yaw) Ry(pitch) Rx(roll)",
+  "rotation_matrix": [
+   [
+    0.8863248283816841,
+    0.4628304134319482,
+    0.014707378984377122
+   ],
+   [
+    -0.4619257626090497,
+    0.88592565628461,
+    -0.04195618398676114
+   ],
+   [
+    -0.032448242359580326,
+    0.03039309031827772,
+    0.9990111969486022
+   ]
+  ],
+  "yaw_deg": -27.527166500022506,
+  "pitch_deg": 1.8594737402816879,
+  "roll_deg": 1.7425819091568444,
+  "t": [
+   0.11971420644083508,
+   0.005449335837610425,
+   0.286771397530153
+  ],
+  "scale": 1.0585237287013245,
+  "shape": {
+   "skull_d": 32.79073329757169,
+   "skull_w": 47.027512398937766,
+   "skull_h": 31.87336628010515,
+   "skull_cx": -5.0,
+   "skull_cz": 4.0,
+   "cheek_w": 23.98723839884719,
+   "cheek_y": 23.39993549116474,
+   "cheek_z": -14.397855614831233,
+   "cheek_x": 3.0,
+   "nose_x": 45.5645758889589,
+   "nose_z": -19.353254258312102,
+   "pad_y": 11.0,
+   "chin_x": 29.314703427376752,
+   "chin_z": -41.36608764622962,
+   "eye_x": 35.02690886697994,
+   "eye_y": 21.161124414281304,
+   "eye_z": 4.870190937797198,
+   "ear_in_y": 13.311190828067291,
+   "ear_in_z": 36.0,
+   "ear_out_y": 45.38601686606148,
+   "ear_out_z": 11.330552962413787,
+   "ear_base_x": 4.0,
+   "ear_d": 10.967139697771607,
+   "ear_yaw": 18.0,
+   "ear_tip_x": 13.404903893863537,
+   "ear_tip_y": 47.168254044072555,
+   "ear_tip_z": 57.06059773926259,
+   "throat_x": 6.0,
+   "throat_z": -54.0,
+   "nape_x": -40.0,
+   "nape_z": -14.0,
+   "neck_w": 34.106608827824836
+  },
+  "shape_units": "mm (head-local)",
+  "per_lod_shape_delta_mm": {
+   "L0": {
+    "skull_w": 2.575488442154935,
+    "skull_h": 1.1125196918205624,
+    "cheek_w": -0.5311641534635037,
+    "cheek_y": -0.5622101617190651,
+    "ear_out_y": -4.205839031750287,
+    "ear_in_y": -1.383693470897411,
+    "ear_tip_y": -0.4810653665601805,
+    "ear_tip_z": 0.22213936925270872
+   },
+   "L1": {
+    "skull_w": 2.211903826081553,
+    "skull_h": 0.8009243440570337,
+    "cheek_w": 1.4743642141378928,
+    "cheek_y": -0.8869766001176203,
+    "ear_out_y": -3.8977435147732606,
+    "ear_in_y": -2.4191462309290195,
+    "ear_tip_y": -0.13985151508289562,
+    "ear_tip_z": -0.27068446698594073
+   },
+   "L2": {
+    "skull_w": 0.4467790039259043,
+    "skull_h": 0.524147532797894,
+    "cheek_w": -0.08662298955950476,
+    "cheek_y": 1.2416380340706752,
+    "ear_out_y": -0.7917586639140382,
+    "ear_in_y": -2.694900834547676,
+    "ear_tip_y": -0.16581723454877562,
+    "ear_tip_z": 0.06823516108905636
+   },
+   "L3": {
+    "skull_w": 0.12285822455678641,
+    "skull_h": -0.04518873484650854,
+    "cheek_w": 0.9809929896459906,
+    "cheek_y": -0.5538852753463495,
+    "ear_out_y": -0.9592670103031793,
+    "ear_in_y": 0.8407868980147448,
+    "ear_tip_y": 0.1628163013974202,
+    "ear_tip_z": -0.4123533913398205
+   },
+   "L4": {
+    "skull_w": 0.2628790690075391,
+    "skull_h": -0.1838799891761127,
+    "cheek_w": -0.054511913694998526,
+    "cheek_y": 0.0185050163375422,
+    "ear_out_y": -0.18203027650516646,
+    "ear_in_y": 0.633358669852079,
+    "ear_tip_y": 0.13203785989488637,
+    "ear_tip_z": -0.20021060730319817
+   }
+  },
+  "initial_pose_from_proxy": {
+   "yaw_deg": -27.226441067672273,
+   "pitch_deg": 17.798819661429683,
+   "roll_deg": 0.0,
+   "t": [
+    0.12336447529123312,
+    0.0029670842114145023,
+    0.2978629391918809
+   ],
+   "scale": 1.0,
+   "proxy_head_axis_yaw_deg": -27.226441067672273,
+   "proxy_head_axis_pitch_deg": 17.798819661429683,
+   "proxy_head_centre": [
+    0.12392342764299115,
+    0.0029025524746192095,
+    0.2835538810849485
+   ],
+   "proxy_eye_mid": [
+    0.14961044349553176,
+    -0.010536826069329486,
+    0.2883869927933114
+   ]
+  },
+  "seed": 0,
+  "evals": 2400,
+  "lod_evals": 300,
+  "elapsed_s": 121.60405969619751,
+  "depth_aligned": true,
+  "depth_align_scale": 1.028871282899693,
+  "depth_align": {
+   "depth_aligned": true,
+   "depth_align_scale": 1.028871282899693,
+   "depth_align_fit_lod": "L3",
+   "about": "camera centre (contract/camera.json location)"
+  },
+  "depth_align_per_lod": {
+   "L0": {
+    "mean_abs_proxy_sdf_mm": {
+     "before": 34.43701538500418,
+     "after": 5.189457461780387
+    },
+    "head_width_mm": {
+     "before": 91.23289172276044,
+     "after": 93.86690234944533
+    },
+    "max_projected_landmark_shift_px": 4.547473508864641e-13,
+    "max_landmark_error_change_px": 3.2596148002994596e-13,
+    "outline_boundary_change_px": 0.0,
+    "pixels_outside_mask": {
+     "before": 211,
+     "after": 211
+    },
+    "ear_thickness_world_mm": {
+     "before": {
+      "base_thickness": 13.303794866764106
+     },
+     "after": {
+      "base_thickness": 13.687892492001938
+     }
+    },
+    "bbox_centre_after": [
+     0.12351356367536753,
+     0.0035988723084238172,
+     0.28892486034506565
+    ]
+   },
+   "L1": {
+    "mean_abs_proxy_sdf_mm": {
+     "before": 30.22313974943085,
+     "after": 5.793759633818144
+    },
+    "head_width_mm": {
+     "before": 101.68308225018991,
+     "after": 104.61880328394791
+    },
+    "max_projected_landmark_shift_px": 2.5421149729252077e-13,
+    "max_landmark_error_change_px": 2.007283228522283e-13,
+    "outline_boundary_change_px": 0.0,
+    "pixels_outside_mask": {
+     "before": 235,
+     "after": 235
+    },
+    "ear_thickness_world_mm": {
+     "before": {
+      "base_thickness": 13.305658703499972
+     },
+     "after": {
+      "base_thickness": 13.689810140095483
+     }
+    },
+    "bbox_centre_after": [
+     0.12159793456383,
+     0.0012531448503154685,
+     0.2886697741281691
+    ]
+   },
+   "L2": {
+    "mean_abs_proxy_sdf_mm": {
+     "before": 31.40953274994619,
+     "after": 4.449988093180294
+    },
+    "head_width_mm": {
+     "before": 101.9854256893603,
+     "after": 104.92987576608344
+    },
+    "max_projected_landmark_shift_px": 3.2155493553843715e-13,
+    "max_landmark_error_change_px": 2.886579864025407e-13,
+    "outline_boundary_change_px": 0.0,
+    "pixels_outside_mask": {
+     "before": 152,
+     "after": 152
+    },
+    "ear_thickness_world_mm": {
+     "before": {
+      "base_thickness": 13.123470553478082
+     },
+     "after": {
+      "base_thickness": 13.50236198445334
+     }
+    },
+    "bbox_centre_after": [
+     0.12274715318931889,
+     0.001335539065305369,
+     0.28884855631157114
+    ]
+   },
+   "L3": {
+    "mean_abs_proxy_sdf_mm": {
+     "before": 29.696199034881165,
+     "after": 4.241033796580352
+    },
+    "head_width_mm": {
+     "before": 100.59676450236907,
+     "after": 103.50112214911077
+    },
+    "max_projected_landmark_shift_px": 2.5421149729252077e-13,
+    "max_landmark_error_change_px": 2.327027459614328e-13,
+    "outline_boundary_change_px": 0.0,
+    "pixels_outside_mask": {
+     "before": 101,
+     "after": 101
+    },
+    "ear_thickness_world_mm": {
+     "before": {
+      "cup": 3.0254636361849943,
+      "r1ear_fi": 6.166484626038528,
+      "r1ear_fo": 6.826638717526693
+     },
+     "after": {
+      "cup": 3.1128126527280253,
+      "r1ear_fi": 6.344518948173495,
+      "r1ear_fo": 7.023732535194404
+     }
+    },
+    "bbox_centre_after": [
+     0.12188081995118771,
+     0.00087373036389371,
+     0.28859973699488967
+    ]
+   },
+   "L4": {
+    "mean_abs_proxy_sdf_mm": {
+     "before": 27.56147480511593,
+     "after": 3.837303410874467
+    },
+    "head_width_mm": {
+     "before": 99.86267491391686,
+     "after": 102.74583845247665
+    },
+    "max_projected_landmark_shift_px": 3.410605131648481e-13,
+    "max_landmark_error_change_px": 1.5987211554602254e-13,
+    "outline_boundary_change_px": 0.0,
+    "pixels_outside_mask": {
+     "before": 172,
+     "after": 172
+    },
+    "ear_thickness_world_mm": {
+     "before": {
+      "cup": 2.9770217581031244,
+      "in0": 8.352137383659683,
+      "in1": 9.044338283380844,
+      "in4": 5.835289799295073,
+      "r1ear_fi": 6.154093889024655,
+      "r1ear_fo": 6.751023089802015
+     },
+     "after": {
+      "cup": 3.0629721954798614,
+      "in0": 8.593274304880424,
+      "in1": 9.305459932600856,
+      "in4": 6.003762101892215,
+      "r1ear_fi": 6.331770474685959,
+      "r1ear_fo": 6.945933787290049
+     }
+    },
+    "bbox_centre_after": [
+     0.12179012081122864,
+     0.0009492988367491573,
+     0.2887114099593308
+    ]
+   }
+  },
+  "prealign_t": [
+   0.14394767362106584,
+   -0.021003837455681934,
+   0.28462493500809216
+  ],
+  "prealign_scale": 1.0288203648935184
+ },
+ "depth_aligned": true,
+ "depth_align_scale": 1.028871282899693
+}
